@@ -42,9 +42,6 @@
     <div class="navbar-inner">
         <div class="container-fluid">
             <!-- BEGIN LOGO -->
-            <a class="brand" href="index.jsp">
-                <img src="../media/image/logo.png" alt="logo"/>
-            </a>
             <!-- END LOGO -->
             <!-- BEGIN RESPONSIVE MENU TOGGLER -->
             <a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
@@ -72,112 +69,13 @@
     </div>
     <!-- END TOP NAVIGATION BAR -->
 </div>
-<div class="page-container">
+<div class="page-container" id="app">
     <div class="page-sidebar nav-collapse collapse">
         <ul class="page-sidebar-menu">
-            <li class="">
-                <a href="javascript:;">
-                    <i class="icon-cogs"></i>
-                    <span class="title">安亭站</span>
-                    <span class="arrow "></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="anting.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_anting.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                   <!-- <li>
-                        <a href="amount_data_anting">
-                            加氢量统计</a>
-                    </li>-->
-                </ul>
-            </li>
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">大连站1</span>
-                    <span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="dalian1.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_dalian1.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                    <!--<li>
-                        <a href="amount_data_dalian1">
-                            加氢量统计</a>
-                    </li>-->
-                </ul>
-            </li>
-            <!--<li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">大连站2</span>
-                    <span class=""></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="dalian2.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_dalian2" target="_blank">
-                            报表查看</a>
-                    </li>
-                    <li>
-                        <a href="amount_data_dalian2">
-                            加氢量统计</a>
-                    </li>
-                </ul>
-            </li>-->
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">云浮站</span>
-                    <span class=""></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="yunfu.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_yunfu.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                   <!-- <li>
-                        <a href="amount_data_yunfu">
-                            加氢量统计</a>
-                    </li>-->
-                </ul>
-            </li>
-            <!--
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">安亭站</span>
-                    <!--<span class=""></span>
-                </a>
-            </li>
-            <li class="last">
-                <a href="charts.html">
-                    <i class="icon-bar-chart"></i>
-                    <span class="title">图表信息</span>
-                </a>
-            </li>-->
+        <app-nav v-for="item in menulist" v-bind:menu="item" v-bind:key="item.id"></app-nav>
         </ul>
-        <!-- END SIDEBAR MENU -->
     </div>
-    <!-- END SIDEBAR -->
-    <!-- BEGIN PAGE -->
+</div>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row-fluid">
@@ -225,26 +123,4852 @@
                     </ul>
                 </div>
             </div>
-            <div id="dashboard">
-                <div class="row-fluid">
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                        <div class="dashboard-stat green"></div>
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6  fix-offset" data-desktop="span3">
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                        <div class="dashboard-stat yellow"></div>
-                    </div>
-                </div>
-            </div>
             <div class="clearfix"></div>
-            <div class="row-fluid">
-                <img src="../media/image/station_yunfu.png" id="station_img">
-                <canvas id="mycanvas">Your browser does not support the HTML5 canvas tag.</canvas>
-            </div>
-        </div>
+             <div  style="background:#c3bdbd;width:1400.2563px;height:801.0097px"> 
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.2"
+   width="1400"
+   height="801.0097"
+   viewBox="0 0 1452.2563 801.0097"
+   id="svg5969"
+   xml:space="preserve"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><metadata
+   id="metadata8951"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
+	<style
+   type="text/css"
+   id="style5971" />
+
+	<defs
+   id="Patterns_And_Gradients">
+		<radialGradient
+   cx="0.5"
+   cy="1"
+   r="1.1"
+   id="grad5-12">
+			<stop
+   id="stop5975"
+   style="stop-color:#7f7f7f;stop-opacity:1"
+   offset="0" />
+			<stop
+   id="stop5977"
+   style="stop-color:#54b0c8;stop-opacity:1"
+   offset="0.46000001" />
+			<stop
+   id="stop5979"
+   style="stop-color:#276a7c;stop-opacity:1"
+   offset="1" />
+		</radialGradient>
+	<linearGradient
+   x1="37.394001"
+   y1="56.744999"
+   x2="48"
+   y2="56.744999"
+   id="linearGradient8953"
+   xlink:href="#mfid294"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00231011,1.2542e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="37.394001"
+   y1="56.744999"
+   x2="48"
+   y2="56.744999"
+   id="linearGradient8955"
+   xlink:href="#mfid294"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00231011,1.2542e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="68.278999"
+   y1="40.639"
+   x2="78.716003"
+   y2="40.639"
+   id="linearGradient8957"
+   xlink:href="#mfid296"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00196897,2.7843e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="68.278999"
+   y1="40.639"
+   x2="78.716003"
+   y2="40.639"
+   id="linearGradient8959"
+   xlink:href="#mfid296"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00196897,2.7843e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="34.471001"
+   y1="61.353001"
+   x2="44"
+   y2="61.353001"
+   id="linearGradient8961"
+   xlink:href="#mfid298"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.3952,-0.71674,0,83.211247,6.6105)"
+   spreadMethod="repeat" /><linearGradient
+   x1="34.471001"
+   y1="61.353001"
+   x2="44"
+   y2="61.353001"
+   id="linearGradient8963"
+   xlink:href="#mfid298"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.3952,-0.71674,0,83.211247,6.6105)"
+   spreadMethod="repeat" /><linearGradient
+   x1="36.473"
+   y1="61.931"
+   x2="46.785"
+   y2="61.931"
+   id="linearGradient8965"
+   xlink:href="#mfid300"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,2.694e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="36.473"
+   y1="61.931"
+   x2="46.785"
+   y2="61.931"
+   id="linearGradient8967"
+   xlink:href="#mfid300"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,2.694e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="12.566"
+   y1="69.475998"
+   x2="27"
+   y2="69.475998"
+   id="linearGradient8969"
+   xlink:href="#mfid312"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="12.566"
+   y1="69.475998"
+   x2="27"
+   y2="69.475998"
+   id="linearGradient8971"
+   xlink:href="#mfid312"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="66.039001"
+   y1="44.5"
+   x2="75"
+   y2="44.5"
+   id="linearGradient8973"
+   xlink:href="#mfid318"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.4507,-0.68931,0,101.19225,-57.805)"
+   spreadMethod="repeat" /><linearGradient
+   x1="66.039001"
+   y1="44.5"
+   x2="75"
+   y2="44.5"
+   id="linearGradient8975"
+   xlink:href="#mfid318"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.4507,-0.68931,0,101.19225,-57.805)"
+   spreadMethod="repeat" /><linearGradient
+   x1="67.941002"
+   y1="44.917"
+   x2="77.759003"
+   y2="44.917"
+   id="linearGradient8977"
+   xlink:href="#mfid320"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00195015,-1.4862e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="67.941002"
+   y1="44.917"
+   x2="77.759003"
+   y2="44.917"
+   id="linearGradient8979"
+   xlink:href="#mfid320"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00195015,-1.4862e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59.549"
+   x2="7.7610002"
+   y2="59.549"
+   id="linearGradient8981"
+   xlink:href="#mfid350"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00224857,3.7264e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59.549"
+   x2="7.7610002"
+   y2="59.549"
+   id="linearGradient8983"
+   xlink:href="#mfid350"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00224857,3.7264e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient8985"
+   xlink:href="#mfid377"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient8987"
+   xlink:href="#mfid377"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="3"
+   y1="58"
+   x2="4"
+   y2="58"
+   id="linearGradient8989"
+   xlink:href="#mfid379"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="3"
+   y1="58"
+   x2="4"
+   y2="58"
+   id="linearGradient8991"
+   xlink:href="#mfid379"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="4"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient8993"
+   xlink:href="#mfid381"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="4"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient8995"
+   xlink:href="#mfid381"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66.5"
+   x2="22"
+   y2="66.5"
+   id="linearGradient8997"
+   xlink:href="#mfid383"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66.5"
+   x2="22"
+   y2="66.5"
+   id="linearGradient8999"
+   xlink:href="#mfid383"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66"
+   x2="19"
+   y2="66"
+   id="linearGradient9001"
+   xlink:href="#mfid385"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66"
+   x2="19"
+   y2="66"
+   id="linearGradient9003"
+   xlink:href="#mfid385"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="19"
+   y1="67"
+   x2="21"
+   y2="67"
+   id="linearGradient9005"
+   xlink:href="#mfid387"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="19"
+   y1="67"
+   x2="21"
+   y2="67"
+   id="linearGradient9007"
+   xlink:href="#mfid387"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="22"
+   y1="67.5"
+   x2="24"
+   y2="67.5"
+   id="linearGradient9009"
+   xlink:href="#mfid389"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="22"
+   y1="67.5"
+   x2="24"
+   y2="67.5"
+   id="linearGradient9011"
+   xlink:href="#mfid389"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="33"
+   y1="54.5"
+   x2="37"
+   y2="54.5"
+   id="linearGradient9013"
+   xlink:href="#mfid419"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="33"
+   y1="54.5"
+   x2="37"
+   y2="54.5"
+   id="linearGradient9015"
+   xlink:href="#mfid419"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="28"
+   y1="56.5"
+   x2="32"
+   y2="56.5"
+   id="linearGradient9017"
+   xlink:href="#mfid421"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="28"
+   y1="56.5"
+   x2="32"
+   y2="56.5"
+   id="linearGradient9019"
+   xlink:href="#mfid421"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="24.025"
+   y1="55.037998"
+   x2="27.438"
+   y2="55.037998"
+   id="linearGradient9021"
+   xlink:href="#mfid423"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00228182,3.4411e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="24.025"
+   y1="55.037998"
+   x2="27.438"
+   y2="55.037998"
+   id="linearGradient9023"
+   xlink:href="#mfid423"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.00228182,3.4411e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.047667"
+   x2="0.10499"
+   y2="0.047667"
+   id="linearGradient9025"
+   xlink:href="#mfid430"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-6.456e-7,3.4631274,-0.99345,-2.7582196e-7,4.5198525,23.899368)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.047667"
+   x2="0.10499"
+   y2="0.047667"
+   id="linearGradient9027"
+   xlink:href="#mfid430"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-6.456e-7,1.0066,-0.99345,-8.0171e-8,0.09466441,6.8636e-5)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.00077478"
+   y1="0.087975003"
+   x2="0.16077"
+   y2="0.087975003"
+   id="linearGradient9029"
+   xlink:href="#mfid453"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-9.2241e-7,4.1907764,-0.82093,-1.6282479e-7,4.5774315,23.62166)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.00077478"
+   y1="0.087975003"
+   x2="0.16077"
+   y2="0.087975003"
+   id="linearGradient9031"
+   xlink:href="#mfid453"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-9.2241e-7,1.2181,-0.82093,-4.7327e-8,0.15224341,-0.0094729)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11167"
+   x2="0.27090999"
+   y2="0.11167"
+   id="linearGradient9033"
+   xlink:href="#mfid469"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.271626)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11167"
+   x2="0.27090999"
+   y2="0.11167"
+   id="linearGradient9035"
+   xlink:href="#mfid469"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.109"
+   x2="0.33004001"
+   y2="0.109"
+   id="linearGradient9037"
+   xlink:href="#mfid479"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.271448)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.109"
+   x2="0.33004001"
+   y2="0.109"
+   id="linearGradient9039"
+   xlink:href="#mfid479"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.037223998"
+   x2="0.048948001"
+   y2="0.037223998"
+   id="linearGradient9041"
+   xlink:href="#mfid483"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.567781)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.037223998"
+   x2="0.048948001"
+   y2="0.037223998"
+   id="linearGradient9043"
+   xlink:href="#mfid483"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.1547"
+   x2="0.41934001"
+   y2="0.1547"
+   id="linearGradient9045"
+   xlink:href="#mfid499"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.832731)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.1547"
+   x2="0.41934001"
+   y2="0.1547"
+   id="linearGradient9047"
+   xlink:href="#mfid499"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient9049"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.786211)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient9051"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient9053"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient9055"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.702932)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient9057"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient9059"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient9061"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.406103)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient9063"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient9065"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.0022474,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11187"
+   x2="0.48938999"
+   y2="0.11187"
+   id="linearGradient9067"
+   xlink:href="#mfid527"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.524235)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11187"
+   x2="0.48938999"
+   y2="0.11187"
+   id="linearGradient9069"
+   xlink:href="#mfid527"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient9071"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,3.7479943,-0.9179,-4.0277005e-7,4.4782545,24.111908)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient9073"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,1.0894,-0.9179,-1.1707e-7,0.05306641,9.3171e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient9075"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,1.0894,-0.9179,-1.1707e-7,0.0552904,9.3171e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient9077"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,3.6919154,-0.93191,-3.6034966e-7,4.4895355,23.864706)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient9079"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,1.0731,-0.93191,-1.0474e-7,0.06434741,-9.3995e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient9081"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,1.0731,-0.93191,-1.0474e-7,0.0665714,-9.3995e-4)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026962001"
+   x2="0.063079"
+   y2="0.026962001"
+   id="linearGradient9083"
+   xlink:href="#mfid540"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.068791)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026962001"
+   x2="0.063079"
+   y2="0.026962001"
+   id="linearGradient9085"
+   xlink:href="#mfid540"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.028858"
+   x2="0.065833002"
+   y2="0.028858"
+   id="linearGradient9087"
+   xlink:href="#mfid544"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.049192)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.028858"
+   x2="0.065833002"
+   y2="0.028858"
+   id="linearGradient9089"
+   xlink:href="#mfid544"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029251"
+   x2="0.067178003"
+   y2="0.029251"
+   id="linearGradient9091"
+   xlink:href="#mfid548"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.02372)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029251"
+   x2="0.067178003"
+   y2="0.029251"
+   id="linearGradient9093"
+   xlink:href="#mfid548"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.027365001"
+   x2="0.063759997"
+   y2="0.027365001"
+   id="linearGradient9095"
+   xlink:href="#mfid552"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.998248)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.027365001"
+   x2="0.063759997"
+   y2="0.027365001"
+   id="linearGradient9097"
+   xlink:href="#mfid552"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026589001"
+   x2="0.051442001"
+   y2="0.026589001"
+   id="linearGradient9099"
+   xlink:href="#mfid556"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.967565)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026589001"
+   x2="0.051442001"
+   y2="0.026589001"
+   id="linearGradient9101"
+   xlink:href="#mfid556"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.020182"
+   x2="0.027146"
+   y2="0.020182"
+   id="linearGradient9103"
+   xlink:href="#mfid566"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-5.1773e-7,5.8521555,-0.58788,-5.2356322e-7,4.4462335,23.95044)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.020182"
+   x2="0.027146"
+   y2="0.020182"
+   id="linearGradient9105"
+   xlink:href="#mfid566"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-5.1773e-7,1.701,-0.58788,-1.5218e-7,0.02104541,0.0046058)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.12594"
+   x2="0.47104001"
+   y2="0.12594"
+   id="linearGradient9107"
+   xlink:href="#mfid570"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.970285)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.12594"
+   x2="0.47104001"
+   y2="0.12594"
+   id="linearGradient9109"
+   xlink:href="#mfid570"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(2.3410461e-5,0)"
+   spreadMethod="repeat" />
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<linearGradient
+   x1="37.394001"
+   y1="56.744999"
+   x2="48"
+   y2="56.744999"
+   id="linearGradient10834"
+   xlink:href="#mfid294"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82037,-200.86488)"
+   spreadMethod="repeat" /><linearGradient
+   x1="37.394001"
+   y1="56.744999"
+   x2="48"
+   y2="56.744999"
+   id="linearGradient10836"
+   xlink:href="#mfid294"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82037,-200.86488)"
+   spreadMethod="repeat" /><linearGradient
+   x1="68.278999"
+   y1="40.639"
+   x2="78.716003"
+   y2="40.639"
+   id="linearGradient10838"
+   xlink:href="#mfid296"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82003,-200.86497)"
+   spreadMethod="repeat" /><linearGradient
+   x1="68.278999"
+   y1="40.639"
+   x2="78.716003"
+   y2="40.639"
+   id="linearGradient10840"
+   xlink:href="#mfid296"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82003,-200.86497)"
+   spreadMethod="repeat" /><linearGradient
+   x1="34.471001"
+   y1="61.353001"
+   x2="44"
+   y2="61.353001"
+   id="linearGradient10842"
+   xlink:href="#mfid298"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.3952,-0.71674,0,508.02931,-194.2545)"
+   spreadMethod="repeat" /><linearGradient
+   x1="34.471001"
+   y1="61.353001"
+   x2="44"
+   y2="61.353001"
+   id="linearGradient10844"
+   xlink:href="#mfid298"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.3952,-0.71674,0,508.02931,-194.2545)"
+   spreadMethod="repeat" /><linearGradient
+   x1="36.473"
+   y1="61.931"
+   x2="46.785"
+   y2="61.931"
+   id="linearGradient10846"
+   xlink:href="#mfid300"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.86497)"
+   spreadMethod="repeat" /><linearGradient
+   x1="36.473"
+   y1="61.931"
+   x2="46.785"
+   y2="61.931"
+   id="linearGradient10848"
+   xlink:href="#mfid300"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.86497)"
+   spreadMethod="repeat" /><radialGradient
+   cx="57.288383"
+   cy="44.477703"
+   r="11.016258"
+   fx="57.288383"
+   fy="44.477703"
+   id="radialGradient10850"
+   xlink:href="#mfid303"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.78157208,0,0,1.2794725,424.82031,-200.865)" /><linearGradient
+   x1="12.566"
+   y1="69.475998"
+   x2="27"
+   y2="69.475998"
+   id="linearGradient10852"
+   xlink:href="#mfid312"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="12.566"
+   y1="69.475998"
+   x2="27"
+   y2="69.475998"
+   id="linearGradient10854"
+   xlink:href="#mfid312"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><radialGradient
+   cx="4.652226"
+   cy="68.016121"
+   r="2.8397293"
+   fx="4.652226"
+   fy="68.016121"
+   id="radialGradient10856"
+   xlink:href="#mfid315"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1034503,0,0,0.90624837,424.82031,-200.865)" /><linearGradient
+   x1="66.039001"
+   y1="44.5"
+   x2="75"
+   y2="44.5"
+   id="linearGradient10858"
+   xlink:href="#mfid318"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.4507,-0.68931,0,526.01031,-258.67)"
+   spreadMethod="repeat" /><linearGradient
+   x1="66.039001"
+   y1="44.5"
+   x2="75"
+   y2="44.5"
+   id="linearGradient10860"
+   xlink:href="#mfid318"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0,1.4507,-0.68931,0,526.01031,-258.67)"
+   spreadMethod="repeat" /><linearGradient
+   x1="67.941002"
+   y1="44.917"
+   x2="77.759003"
+   y2="44.917"
+   id="linearGradient10862"
+   xlink:href="#mfid320"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82001,-200.86515)"
+   spreadMethod="repeat" /><linearGradient
+   x1="67.941002"
+   y1="44.917"
+   x2="77.759003"
+   y2="44.917"
+   id="linearGradient10864"
+   xlink:href="#mfid320"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82001,-200.86515)"
+   spreadMethod="repeat" /><radialGradient
+   cx="97.047852"
+   cy="31.368349"
+   r="10.485815"
+   fx="97.047852"
+   fy="31.368349"
+   id="radialGradient10866"
+   xlink:href="#mfid323"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.78153201,0,0,1.2795381,424.82031,-200.865)" /><radialGradient
+   cx="47.778904"
+   cy="41.836617"
+   r="28.481445"
+   fx="47.778904"
+   fy="41.836617"
+   id="radialGradient10868"
+   xlink:href="#mfid333"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1146028,0,0,0.89718057,424.82031,-200.865)" /><radialGradient
+   cx="44.553802"
+   cy="59.018879"
+   r="26.90041"
+   fx="44.553802"
+   fy="59.018879"
+   id="radialGradient10870"
+   xlink:href="#mfid337"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.189573,0,0,0.84063778,424.82031,-200.865)" /><radialGradient
+   cx="32.649902"
+   cy="31.636295"
+   r="28.939688"
+   fx="32.649902"
+   fy="31.636295"
+   id="radialGradient10872"
+   xlink:href="#mfid342"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3476303,0,0,0.74204326,424.82031,-200.865)" /><radialGradient
+   cx="14.055629"
+   cy="81.410484"
+   r="3.7881541"
+   fx="14.055629"
+   fy="81.410484"
+   id="radialGradient10874"
+   xlink:href="#mfid347"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2329224,0,0,0.81108106,424.82031,-200.865)" /><linearGradient
+   x1="2"
+   y1="59.549"
+   x2="7.7610002"
+   y2="59.549"
+   id="linearGradient10876"
+   xlink:href="#mfid350"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.86496)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59.549"
+   x2="7.7610002"
+   y2="59.549"
+   id="linearGradient10878"
+   xlink:href="#mfid350"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.86496)"
+   spreadMethod="repeat" /><radialGradient
+   cx="10.608496"
+   cy="63.829273"
+   r="5.1636081"
+   fx="10.608496"
+   fy="63.829273"
+   id="radialGradient10880"
+   xlink:href="#mfid353"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0292222,0,0,0.97160747,424.82031,-200.865)" /><radialGradient
+   cx="3.3518062"
+   cy="43.810276"
+   r="2.0136106"
+   fx="3.3518062"
+   fy="43.810276"
+   id="radialGradient10882"
+   xlink:href="#mfid359"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.79151356,0,0,1.2634022,424.82031,-200.865)" /><radialGradient
+   cx="22.008801"
+   cy="56.599373"
+   r="2.4853027"
+   fx="22.008801"
+   fy="56.599373"
+   id="radialGradient10884"
+   xlink:href="#mfid363"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.88319218,0,0,1.1322564,424.82031,-200.865)" /><radialGradient
+   cx="51.4809"
+   cy="43.775543"
+   r="29.345041"
+   fx="51.4809"
+   fy="43.775543"
+   id="radialGradient10886"
+   xlink:href="#mfid370"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0298674,0,0,0.97099882,424.82031,-200.865)" /><radialGradient
+   cx="95.518616"
+   cy="20.736795"
+   r="6.1846585"
+   fx="95.518616"
+   fy="20.736795"
+   id="radialGradient10888"
+   xlink:href="#mfid374"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.72760688,0,0,1.3743685,424.82031,-200.865)" /><linearGradient
+   x1="2"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient10890"
+   xlink:href="#mfid377"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="2"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient10892"
+   xlink:href="#mfid377"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="3"
+   y1="58"
+   x2="4"
+   y2="58"
+   id="linearGradient10894"
+   xlink:href="#mfid379"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="3"
+   y1="58"
+   x2="4"
+   y2="58"
+   id="linearGradient10896"
+   xlink:href="#mfid379"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="4"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient10898"
+   xlink:href="#mfid381"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="4"
+   y1="59"
+   x2="6"
+   y2="59"
+   id="linearGradient10900"
+   xlink:href="#mfid381"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66.5"
+   x2="22"
+   y2="66.5"
+   id="linearGradient10902"
+   xlink:href="#mfid383"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66.5"
+   x2="22"
+   y2="66.5"
+   id="linearGradient10904"
+   xlink:href="#mfid383"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66"
+   x2="19"
+   y2="66"
+   id="linearGradient10906"
+   xlink:href="#mfid385"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="17"
+   y1="66"
+   x2="19"
+   y2="66"
+   id="linearGradient10908"
+   xlink:href="#mfid385"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="19"
+   y1="67"
+   x2="21"
+   y2="67"
+   id="linearGradient10910"
+   xlink:href="#mfid387"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="19"
+   y1="67"
+   x2="21"
+   y2="67"
+   id="linearGradient10912"
+   xlink:href="#mfid387"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="22"
+   y1="67.5"
+   x2="24"
+   y2="67.5"
+   id="linearGradient10914"
+   xlink:href="#mfid389"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="22"
+   y1="67.5"
+   x2="24"
+   y2="67.5"
+   id="linearGradient10916"
+   xlink:href="#mfid389"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><radialGradient
+   cx="80.666664"
+   cy="25.5"
+   r="6"
+   fx="80.666664"
+   fy="25.5"
+   id="radialGradient10918"
+   xlink:href="#mfid392"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.75,0,0,1.3333333,424.82031,-200.865)" /><radialGradient
+   cx="74.344635"
+   cy="27.096775"
+   r="5.8309517"
+   fx="74.344635"
+   fy="27.096775"
+   id="radialGradient10920"
+   xlink:href="#mfid396"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.68599434,0,0,1.457738,424.82031,-200.865)" /><radialGradient
+   cx="60.298103"
+   cy="31.315248"
+   r="6.5383482"
+   fx="60.298103"
+   fy="31.315248"
+   id="radialGradient10922"
+   xlink:href="#mfid400"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.6882472,0,0,1.4529663,424.82031,-200.865)" /><radialGradient
+   cx="107.41451"
+   cy="17.495056"
+   r="5.8112922"
+   fx="107.41451"
+   fy="17.495056"
+   id="radialGradient10924"
+   xlink:href="#mfid408"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.72832338,0,0,1.3730165,424.82031,-200.865)" /><radialGradient
+   cx="13.243348"
+   cy="47.351486"
+   r="8.8899117"
+   fx="13.243348"
+   fy="47.351486"
+   id="radialGradient10926"
+   xlink:href="#mfid416"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.96153934,0,0,1.0399991,424.82031,-200.865)" /><linearGradient
+   x1="33"
+   y1="54.5"
+   x2="37"
+   y2="54.5"
+   id="linearGradient10928"
+   xlink:href="#mfid419"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="33"
+   y1="54.5"
+   x2="37"
+   y2="54.5"
+   id="linearGradient10930"
+   xlink:href="#mfid419"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="28"
+   y1="56.5"
+   x2="32"
+   y2="56.5"
+   id="linearGradient10932"
+   xlink:href="#mfid421"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="28"
+   y1="56.5"
+   x2="32"
+   y2="56.5"
+   id="linearGradient10934"
+   xlink:href="#mfid421"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="24.025"
+   y1="55.037998"
+   x2="27.438"
+   y2="55.037998"
+   id="linearGradient10936"
+   xlink:href="#mfid423"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82034,-200.86497)"
+   spreadMethod="repeat" /><linearGradient
+   x1="24.025"
+   y1="55.037998"
+   x2="27.438"
+   y2="55.037998"
+   id="linearGradient10938"
+   xlink:href="#mfid423"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82034,-200.86497)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.047667"
+   x2="0.10499"
+   y2="0.047667"
+   id="linearGradient10940"
+   xlink:href="#mfid430"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-6.456e-7,1.0066,-0.99345,-8.0171e-8,4.5198526,2.0924125)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.080436714"
+   cy="0.077717751"
+   r="0.087255023"
+   fx="0.080436714"
+   fy="0.077717751"
+   id="radialGradient10942"
+   xlink:href="#mfid436"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.915549,0,0,1.0922408,4.4252116,2.0923438)" /><radialGradient
+   cx="-0.0043390067"
+   cy="0.13307004"
+   r="0.19277754"
+   fx="-0.0043390067"
+   fy="0.13307004"
+   id="radialGradient10944"
+   xlink:href="#mfid442"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.85157742,0,0,1.1742914,4.4252116,2.0923438)" /><radialGradient
+   cx="0.059433345"
+   cy="0.061423797"
+   r="0.096423551"
+   fx="0.059433345"
+   fy="0.061423797"
+   id="radialGradient10946"
+   xlink:href="#mfid448"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.8766375,0,0,1.1407224,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.00077478"
+   y1="0.087975003"
+   x2="0.16077"
+   y2="0.087975003"
+   id="linearGradient10948"
+   xlink:href="#mfid453"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-9.2241e-7,1.2181,-0.82093,-4.7327e-8,4.5774316,2.0828709)"
+   spreadMethod="repeat" /><radialGradient
+   cx="-0.0036248737"
+   cy="0.14436106"
+   r="0.20832361"
+   fx="-0.0036248737"
+   fy="0.14436106"
+   id="radialGradient10950"
+   xlink:href="#mfid458"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84416736,0,0,1.1845992,4.4252116,2.0923438)" /><radialGradient
+   cx="0.064184435"
+   cy="0.066124476"
+   r="0.10282782"
+   fx="0.064184435"
+   fy="0.066124476"
+   id="radialGradient10952"
+   xlink:href="#mfid464"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.86873866,0,0,1.1510942,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.010417"
+   y1="0.11167"
+   x2="0.27090999"
+   y2="0.11167"
+   id="linearGradient10954"
+   xlink:href="#mfid469"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.10531975"
+   cy="0.099423721"
+   r="0.11319784"
+   fx="0.10531975"
+   fy="0.099423721"
+   id="radialGradient10956"
+   xlink:href="#mfid474"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3222734,0,0,0.75627324,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.010417"
+   y1="0.109"
+   x2="0.33004001"
+   y2="0.109"
+   id="linearGradient10958"
+   xlink:href="#mfid479"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.037223998"
+   x2="0.048948001"
+   y2="0.037223998"
+   id="linearGradient10960"
+   xlink:href="#mfid483"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.046670269"
+   cy="0.050209049"
+   r="0.05900586"
+   fx="0.046670269"
+   fy="0.050209049"
+   id="radialGradient10962"
+   xlink:href="#mfid488"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84446695,0,0,1.184179,4.4252116,2.0923438)" /><radialGradient
+   cx="0.05970782"
+   cy="0.061802205"
+   r="0.071224518"
+   fx="0.05970782"
+   fy="0.061802205"
+   id="radialGradient10964"
+   xlink:href="#mfid494"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.90451297,0,0,1.1055673,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.010417"
+   y1="0.1547"
+   x2="0.41934001"
+   y2="0.1547"
+   id="linearGradient10966"
+   xlink:href="#mfid499"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.25670299"
+   cy="0.25421721"
+   r="0.26575655"
+   fx="0.25670299"
+   fy="0.25421721"
+   id="radialGradient10968"
+   xlink:href="#mfid504"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1077413,0,0,0.90273787,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient10970"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient10972"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient10974"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient10976"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.044632837"
+   cy="0.045381386"
+   r="0.054649539"
+   fx="0.044632837"
+   fy="0.045381386"
+   id="radialGradient10978"
+   xlink:href="#mfid518"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.039963,0,0,0.96157263,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient10980"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient10982"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(424.82031,-200.865)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11187"
+   x2="0.48938999"
+   y2="0.11187"
+   id="linearGradient10984"
+   xlink:href="#mfid527"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient10986"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,1.0894,-0.9179,-1.1707e-7,4.4782546,2.0932756)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient10988"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,1.0894,-0.9179,-1.1707e-7,424.87335,-200.86407)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient10990"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,1.0731,-0.93191,-1.0474e-7,4.4895356,2.0914039)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient10992"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,1.0731,-0.93191,-1.0474e-7,424.88463,-200.86594)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026962001"
+   x2="0.063079"
+   y2="0.026962001"
+   id="linearGradient10994"
+   xlink:href="#mfid540"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.028858"
+   x2="0.065833002"
+   y2="0.028858"
+   id="linearGradient10996"
+   xlink:href="#mfid544"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029251"
+   x2="0.067178003"
+   y2="0.029251"
+   id="linearGradient10998"
+   xlink:href="#mfid548"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.027365001"
+   x2="0.063759997"
+   y2="0.027365001"
+   id="linearGradient11000"
+   xlink:href="#mfid552"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026589001"
+   x2="0.051442001"
+   y2="0.026589001"
+   id="linearGradient11002"
+   xlink:href="#mfid556"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.064252354"
+   cy="0.063306212"
+   r="0.074207015"
+   fx="0.064252354"
+   fy="0.063306212"
+   id="radialGradient11004"
+   xlink:href="#mfid561"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0464442,0,0,0.95561717,4.4252116,2.0923438)" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.020182"
+   x2="0.027146"
+   y2="0.020182"
+   id="linearGradient11006"
+   xlink:href="#mfid566"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-5.1773e-7,1.701,-0.58788,-1.5218e-7,4.4462336,2.0969496)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.12594"
+   x2="0.47104001"
+   y2="0.12594"
+   id="linearGradient11008"
+   xlink:href="#mfid570"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(4.4252116,2.0923438)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11010"
+   xlink:href="#mfid576"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,0.83311283,4.4252116,2.0923438)" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11012"
+   xlink:href="#mfid583"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,0.83311283,4.4252116,2.0923438)" />
+			
+			
+			
+		
+		
+		
+	
+			
+			
+		
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+					<linearGradient
+   x1="-0.010417"
+   y1="0.047667"
+   x2="0.10499"
+   y2="0.047667"
+   id="linearGradient11590"
+   xlink:href="#mfid430"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-6.456e-7,3.4631274,-0.99345,-2.7582196e-7,4.5198525,23.899368)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.080436714"
+   cy="0.077717751"
+   r="0.087255023"
+   fx="0.080436714"
+   fy="0.077717751"
+   id="radialGradient11592"
+   xlink:href="#mfid436"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.915549,0,0,3.7577678,4.4252115,24.153978)" /><radialGradient
+   cx="-0.0043390067"
+   cy="0.13307004"
+   r="0.19277754"
+   fx="-0.0043390067"
+   fy="0.13307004"
+   id="radialGradient11594"
+   xlink:href="#mfid442"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.85157742,0,0,4.0400563,4.4252115,24.135445)" /><radialGradient
+   cx="0.059433345"
+   cy="0.061423797"
+   r="0.096423551"
+   fx="0.059433345"
+   fy="0.061423797"
+   id="radialGradient11596"
+   xlink:href="#mfid448"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.8766375,0,0,3.9245649,4.4252115,24.245976)" /><linearGradient
+   x1="-0.00077478"
+   y1="0.087975003"
+   x2="0.16077"
+   y2="0.087975003"
+   id="linearGradient11598"
+   xlink:href="#mfid453"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-9.2241e-7,4.1907764,-0.82093,-1.6282479e-7,4.5774315,23.62166)"
+   spreadMethod="repeat" /><radialGradient
+   cx="-0.0036248737"
+   cy="0.14436106"
+   r="0.20832361"
+   fx="-0.0036248737"
+   fy="0.14436106"
+   id="radialGradient11600"
+   xlink:href="#mfid458"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84416736,0,0,4.0755195,4.4252115,23.637422)" /><radialGradient
+   cx="0.064184435"
+   cy="0.066124476"
+   r="0.10282782"
+   fx="0.064184435"
+   fy="0.066124476"
+   id="radialGradient11602"
+   xlink:href="#mfid464"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.86873866,0,0,3.9602482,4.4252115,23.758833)" /><linearGradient
+   x1="-0.010417"
+   y1="0.11167"
+   x2="0.27090999"
+   y2="0.11167"
+   id="linearGradient11604"
+   xlink:href="#mfid469"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.271626)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.10531975"
+   cy="0.099423721"
+   r="0.11319784"
+   fx="0.10531975"
+   fy="0.099423721"
+   id="radialGradient11606"
+   xlink:href="#mfid474"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3222734,0,0,2.601898,4.4252115,24.692421)" /><linearGradient
+   x1="-0.010417"
+   y1="0.109"
+   x2="0.33004001"
+   y2="0.109"
+   id="linearGradient11608"
+   xlink:href="#mfid479"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.271448)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.037223998"
+   x2="0.048948001"
+   y2="0.037223998"
+   id="linearGradient11610"
+   xlink:href="#mfid483"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.567781)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.046670269"
+   cy="0.050209049"
+   r="0.05900586"
+   fx="0.046670269"
+   fy="0.050209049"
+   id="radialGradient11612"
+   xlink:href="#mfid488"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84446695,0,0,4.0740739,4.4252115,24.450209)" /><radialGradient
+   cx="0.05970782"
+   cy="0.061802205"
+   r="0.071224518"
+   fx="0.05970782"
+   fy="0.061802205"
+   id="radialGradient11614"
+   xlink:href="#mfid494"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.90451297,0,0,3.8036166,4.4252115,24.289497)" /><linearGradient
+   x1="-0.010417"
+   y1="0.1547"
+   x2="0.41934001"
+   y2="0.1547"
+   id="linearGradient11616"
+   xlink:href="#mfid499"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.832731)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.25670299"
+   cy="0.25421721"
+   r="0.26575655"
+   fx="0.25670299"
+   fy="0.25421721"
+   id="radialGradient11618"
+   xlink:href="#mfid504"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1077413,0,0,3.105798,4.4252115,23.681832)" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient11620"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.786211)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.076149002"
+   x2="0.26967999"
+   y2="0.076149002"
+   id="linearGradient11622"
+   xlink:href="#mfid509"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,424.8203,-2412.5403)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient11624"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.702932)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0090640001"
+   y1="0.082385004"
+   x2="0.23218"
+   y2="0.082385004"
+   id="linearGradient11626"
+   xlink:href="#mfid513"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,424.8203,-2412.5403)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.044632837"
+   cy="0.045381386"
+   r="0.054649539"
+   fx="0.044632837"
+   fy="0.045381386"
+   id="radialGradient11628"
+   xlink:href="#mfid518"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.039963,0,0,3.3082144,4.4252115,23.677689)" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient11630"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.406103)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.059395999"
+   x2="0.094603002"
+   y2="0.059395999"
+   id="linearGradient11632"
+   xlink:href="#mfid523"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,424.8203,-2412.5403)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.11187"
+   x2="0.48938999"
+   y2="0.11187"
+   id="linearGradient11634"
+   xlink:href="#mfid527"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.524235)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient11636"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,3.7479943,-0.9179,-4.0277005e-7,4.4782545,24.111908)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029359"
+   x2="0.062604003"
+   y2="0.029359"
+   id="linearGradient11638"
+   xlink:href="#mfid532"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-1.0203e-6,3.7479943,-0.9179,-4.0277005e-7,424.87334,-2412.5372)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient11640"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,3.6919154,-0.93191,-3.6034966e-7,4.4895355,23.864706)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.034042001"
+   x2="0.074031003"
+   y2="0.034042001"
+   id="linearGradient11642"
+   xlink:href="#mfid536"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-8.9915e-7,3.6919154,-0.93191,-3.6034966e-7,424.88462,-2412.5436)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026962001"
+   x2="0.063079"
+   y2="0.026962001"
+   id="linearGradient11644"
+   xlink:href="#mfid540"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.068791)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.028858"
+   x2="0.065833002"
+   y2="0.028858"
+   id="linearGradient11646"
+   xlink:href="#mfid544"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.049192)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.029251"
+   x2="0.067178003"
+   y2="0.029251"
+   id="linearGradient11648"
+   xlink:href="#mfid548"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,24.02372)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.027365001"
+   x2="0.063759997"
+   y2="0.027365001"
+   id="linearGradient11650"
+   xlink:href="#mfid552"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.998248)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.026589001"
+   x2="0.051442001"
+   y2="0.026589001"
+   id="linearGradient11652"
+   xlink:href="#mfid556"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.967565)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.064252354"
+   cy="0.063306212"
+   r="0.074207015"
+   fx="0.064252354"
+   fy="0.063306212"
+   id="radialGradient11654"
+   xlink:href="#mfid561"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0464442,0,0,3.2877251,4.4252115,23.929306)" /><linearGradient
+   x1="-0.0088315001"
+   y1="0.020182"
+   x2="0.027146"
+   y2="0.020182"
+   id="linearGradient11656"
+   xlink:href="#mfid566"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-5.1773e-7,5.8521555,-0.58788,-5.2356322e-7,4.4462335,23.95044)"
+   spreadMethod="repeat" /><linearGradient
+   x1="-0.010417"
+   y1="0.12594"
+   x2="0.47104001"
+   y2="0.12594"
+   id="linearGradient11658"
+   xlink:href="#mfid570"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,3.4404207,4.4252115,23.970285)"
+   spreadMethod="repeat" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11660"
+   xlink:href="#mfid576"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,2.8662586,4.4252115,24.34072)" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11662"
+   xlink:href="#mfid583"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,2.8662586,4.4252115,24.523447)" /><radialGradient
+   cx="0.080436714"
+   cy="0.077717751"
+   r="0.087255023"
+   fx="0.080436714"
+   fy="0.077717751"
+   id="radialGradient11736"
+   xlink:href="#mfid436"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.915549,0,0,3.7577678,4.4252115,24.153978)" /><radialGradient
+   cx="-0.0043390067"
+   cy="0.13307004"
+   r="0.19277754"
+   fx="-0.0043390067"
+   fy="0.13307004"
+   id="radialGradient11742"
+   xlink:href="#mfid442"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.85157742,0,0,4.0400563,4.4252115,24.135445)" /><radialGradient
+   cx="0.059433345"
+   cy="0.061423797"
+   r="0.096423551"
+   fx="0.059433345"
+   fy="0.061423797"
+   id="radialGradient11750"
+   xlink:href="#mfid448"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.8766375,0,0,3.9245649,4.4252115,24.245976)" /><radialGradient
+   cx="-0.0036248737"
+   cy="0.14436106"
+   r="0.20832361"
+   fx="-0.0036248737"
+   fy="0.14436106"
+   id="radialGradient11758"
+   xlink:href="#mfid458"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84416736,0,0,4.0755195,4.4252115,23.637422)" /><radialGradient
+   cx="0.064184435"
+   cy="0.066124476"
+   r="0.10282782"
+   fx="0.064184435"
+   fy="0.066124476"
+   id="radialGradient11766"
+   xlink:href="#mfid464"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.86873866,0,0,3.9602482,4.4252115,23.758833)" /><radialGradient
+   cx="0.10531975"
+   cy="0.099423721"
+   r="0.11319784"
+   fx="0.10531975"
+   fy="0.099423721"
+   id="radialGradient11774"
+   xlink:href="#mfid474"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3222734,0,0,2.601898,4.4252115,24.692421)" /><radialGradient
+   cx="0.046670269"
+   cy="0.050209049"
+   r="0.05900586"
+   fx="0.046670269"
+   fy="0.050209049"
+   id="radialGradient11784"
+   xlink:href="#mfid488"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.84446695,0,0,4.0740739,4.4252115,24.450209)" /><radialGradient
+   cx="0.05970782"
+   cy="0.061802205"
+   r="0.071224518"
+   fx="0.05970782"
+   fy="0.061802205"
+   id="radialGradient11790"
+   xlink:href="#mfid494"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.90451297,0,0,3.8036166,4.4252115,24.289497)" /><radialGradient
+   cx="0.25670299"
+   cy="0.25421721"
+   r="0.26575655"
+   fx="0.25670299"
+   fy="0.25421721"
+   id="radialGradient11798"
+   xlink:href="#mfid504"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1077413,0,0,3.105798,4.4252115,23.681832)" /><radialGradient
+   cx="0.044632837"
+   cy="0.045381386"
+   r="0.054649539"
+   fx="0.044632837"
+   fy="0.045381386"
+   id="radialGradient11814"
+   xlink:href="#mfid518"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.039963,0,0,3.3082144,4.4252115,23.677689)" /><radialGradient
+   cx="0.064252354"
+   cy="0.063306212"
+   r="0.074207015"
+   fx="0.064252354"
+   fy="0.063306212"
+   id="radialGradient11846"
+   xlink:href="#mfid561"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0464442,0,0,3.2877251,4.4252115,23.929306)" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11858"
+   xlink:href="#mfid576"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,2.8662586,4.4252115,24.34072)" /><radialGradient
+   cx="0.022005009"
+   cy="0.018180011"
+   r="0.043392681"
+   fx="0.022005009"
+   fy="0.018180011"
+   id="radialGradient11866"
+   xlink:href="#mfid583"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.2003176,0,0,2.8662586,4.4252115,24.523447)" /></defs>
+	<defs
+   id="Filters">
+		<filter
+   color-interpolation-filters="sRGB"
+   id="filter_2.6666667461395">
+			<feGaussianBlur
+   id="feGaussianBlur5983"
+   stdDeviation="2.6666667461395" />
+		</filter>
+	</defs>
+	
+	<g
+   transform="translate(221.4787,-794.48888)"
+   id="shape12-3"><title
+   id="title5999">机械 2</title>
+			
+			<g
+   id="shadow12-4"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 125.17,0 a 2.83465,2.83465 0 0 1 2.84,2.84 l 0,436.53 a 2.83465,2.83465 -180 0 0 2.83,2.84 l 231.99,0"
+   id="path6002"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+				<path
+   d="m 368.5,1292.6 39.69,0"
+   id="path6004"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 125.17,0 a 2.83465,2.83465 0 0 1 2.84,2.84 l 0,436.53 a 2.83465,2.83465 -180 0 0 2.83,2.84 l 231.99,0"
+   id="path6006"
+   style="stroke:#7f7f7f;stroke-width:8" />
+			<path
+   d="m 368.5,1292.6 39.69,0"
+   id="path6008"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(629.66975,-345.19688)"
+   id="shape19-15"><title
+   id="title6011">机械 2.19</title>
+			
+			<g
+   id="shadow19-16"
+   style="visibility:visible">
+				<path
+   d="m 0,843.31 51.02,0"
+   id="path6014"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.31 51.02,0"
+   id="path6016"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(376.1577,-352.56288)"
+   id="shape23-24"><title
+   id="title6019">机械 2.23</title>
+			
+			<g
+   id="shadow23-25"
+   style="visibility:visible">
+				<path
+   d="M 0,850.39 0,969.16 A 2.83465,2.83465 -180 0 0 2.83,972 l 636.27,0"
+   id="path6022"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="M 0,850.39 0,969.16 A 2.83465,2.83465 -180 0 0 2.83,972 l 636.27,0"
+   id="path6024"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(879.58975,-400.47288)"
+   id="shape43-33"><title
+   id="title6027">接合点.43</title>
+			
+		</g><g
+   transform="translate(476.5967,-698.81888)"
+   id="shape293-35"><title
+   id="title6030">流体接触塔</title>
+			
+			<path
+   d="m 0,831.26 a 38.8957,23.3048 -180 0 0 76.54,0 l 0,-89.29 a 38.8957,23.3048 -180 0 0 -76.54,0 l 0,89.29 z"
+   id="path6032"
+   style="fill:#4bacc6" />
+			<path
+   d="m 0,831.26 a 38.8957,23.3048 -180 0 0 76.54,0 l 0,-89.29 a 38.8957,23.3048 -180 0 0 -76.54,0 l 0,89.29"
+   id="path6034"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 0,754.72 76.54,0 L 0,818.5 76.54,818.5 0,754.72"
+   id="path6036"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(1.5934001,0,0,1,352.85809,-787.40188)"
+   id="shape302-39"><title
+   id="title6039">机械 2.294</title>
+			
+			<g
+   id="shadow302-40"
+   style="visibility:visible">
+				<path
+   d="m 0,843.31 75.4,0"
+   id="path6042"
+   style="fill:none;stroke:#000000;stroke-width:0.79220498;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.31 75.4,0"
+   id="path6044"
+   style="stroke:#7f7f7f;stroke-width:6.33763981" />
+		</g><g
+   transform="translate(476.5967,-445.82688)"
+   id="shape310-48"><title
+   id="title6047">流体接触塔.310</title>
+			
+			<path
+   d="m 0,831.26 a 38.8957,23.3048 -180 0 0 76.54,0 l 0,-89.29 a 38.8957,23.3048 -180 0 0 -76.54,0 l 0,89.29 z"
+   id="path6049"
+   style="fill:#4bacc6" />
+			<path
+   d="m 0,831.26 a 38.8957,23.3048 -180 0 0 76.54,0 l 0,-89.29 a 38.8957,23.3048 -180 0 0 -76.54,0 l 0,89.29"
+   id="path6051"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 0,754.72 76.54,0 L 0,818.5 76.54,818.5 0,754.72"
+   id="path6053"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="translate(351.8727,-535.11888)"
+   id="shape312-52"><title
+   id="title6056">机械 2.312</title>
+			
+			<g
+   id="shadow312-53"
+   style="visibility:visible">
+				<path
+   d="m 0,843.31 121.32,0"
+   id="path6059"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.31 121.32,0"
+   id="path6061"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(553.1327,-736.75488)"
+   id="shape317-61"><title
+   id="title6064">机械 2.317</title>
+			
+			<g
+   id="shadow317-62"
+   style="visibility:visible">
+				<path
+   d="m 0,856.44 442.2,2.08"
+   id="path6067"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,856.44 442.2,2.08"
+   id="path6069"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(628.24975,-350.86688)"
+   id="shape320-70"><title
+   id="title6072">接合点.320</title>
+			
+		</g><g
+   transform="translate(553.1327,-506.48888)"
+   id="shape324-72"><title
+   id="title6075">机械 2.324</title>
+			
+			<g
+   id="shadow324-73"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 285.85,0 a 2.83465,2.83465 -180 0 0 2.84,-2.83 l 0,-217.13"
+   id="path6078"
+   style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 285.85,0 a 2.83465,2.83465 -180 0 0 2.84,-2.83 l 0,-217.13"
+   id="path6080"
+   style="stroke:#7f7f7f;stroke-width:8;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="translate(1020.8497,-725.21088)"
+   id="shape339-81"><title
+   id="title6083">机械 2.339</title>
+			
+			<g
+   id="shadow339-82"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 0,44.71 a 2.83465,2.83465 -180 0 0 2.83,2.83 l 35.8,0"
+   id="path6086"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 0,44.71 a 2.83465,2.83465 -180 0 0 2.83,2.83 l 35.8,0"
+   id="path6088"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(1025.9497,-710.39388)"
+   id="shape340-90"><title
+   id="title6091">机械 2.340</title>
+			
+			<g
+   id="shadow340-91"
+   style="visibility:visible">
+				<path
+   d="m 0,857.32 33.98,0.32"
+   id="path6094"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.32 33.98,0.32"
+   id="path6096"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(1026.4197,-684.37588)"
+   id="shape342-99"><title
+   id="title6099">机械 2.342</title>
+			
+			<g
+   id="shadow342-100"
+   style="visibility:visible">
+				<path
+   d="m 0,857.32 33.98,0.32"
+   id="path6102"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.32 33.98,0.32"
+   id="path6104"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="matrix(0,-1,1,0,308.1067,134.73612)"
+   id="shape334-108"><title
+   id="title6107">气囊.334</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path6109"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path6111"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path6113"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path6115"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(0,-1,1,0,308.1067,161.18112)"
+   id="shape335-113"><title
+   id="title6118">气囊.335</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path6120"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path6122"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path6124"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path6126"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(0,-1,1,0,308.1067,187.62612)"
+   id="shape336-118"><title
+   id="title6129">气囊.336</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path6131"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path6133"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path6135"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path6137"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(0,1,-1,0,1548.0898,319.52712)"
+   id="group455-123"><title
+   id="title6140">温度计.455</title>
+			
+			<g
+   transform="translate(0,-12.7559)"
+   id="shape456-124"><title
+   id="title6143">工作表.456</title>
+				
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0 z"
+   id="path6145"
+   style="fill:#ddd6e5;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.37795,-30.8268)"
+   id="shape457-126"><title
+   id="title6148">工作表.457</title>
+				
+				<path
+   d="m 29.76,847.2 a 3.18898,3.18898 -180 0 0 -6.37,0 3.18898,3.18898 -180 0 0 6.37,0 z"
+   id="path6150"
+   style="fill:#000000" />
+				<path
+   d="m 29.76,847.2 a 3.18898,3.18898 -180 0 0 -6.37,0 3.18898,3.18898 -180 0 0 6.37,0"
+   id="path6152"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+				<path
+   d="m 0,847.2 29.76,0"
+   id="path6154"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+			</g>
+			<g
+   transform="translate(0,-12.7559)"
+   id="shape458-130"><title
+   id="title6157">工作表.458</title>
+				
+			</g>
+		</g><g
+   transform="matrix(-0.99945886,-0.03289352,0.03289352,-0.99945886,942.51975,950.91613)"
+   id="group499-141"><title
+   id="title6180">压力表.499</title>
+			
+			<g
+   transform="translate(0,-2.12272)"
+   id="shape500-142"><title
+   id="title6183">工作表.500</title>
+				
+				<path
+   d="m 0,832.33 a 18.06,18.06 0 0 1 36.12,0 18.06,18.06 0 1 1 -36.12,0 z"
+   id="path6185"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,832.33 a 18.06,18.06 0 0 1 36.12,0 18.06,18.06 0 1 1 -36.12,0"
+   id="path6187"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 5.29,845.1 30.83,819.56"
+   id="path6189"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 30.83,845.1 5.29,819.56"
+   id="path6191"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,676.241,1365.99)"
+   id="shape501-147"><title
+   id="title6194">工作表.501</title>
+				
+			</g>
+			<g
+   transform="translate(0,-2.12272)"
+   id="shape502-149"><title
+   id="title6197">工作表.502</title>
+				
+			</g>
+		</g><g
+   transform="translate(1027.9397,-827.08688)"
+   id="shape546-151"><title
+   id="title6200">接合点</title>
+			
+		</g><g
+   transform="translate(1022.2697,-821.41788)"
+   id="shape547-153"><title
+   id="title6203">机械 2.547</title>
+			
+			<g
+   id="shadow547-154"
+   style="visibility:visible" />
+		</g><g
+   transform="translate(661.69975,-413.22888)"
+   id="shape572-155"><title
+   id="title6207">机械 2.572</title>
+			
+			<g
+   id="shadow572-156"
+   style="visibility:visible" />
+		</g><g
+   transform="translate(1017.6684,-760.06426)"
+   id="shape840-157"><title
+   id="title6211">云朵.840</title><desc
+   id="desc6213">泄漏</desc>
+			
+			
+			<path
+   d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04 z"
+   id="path6215"
+   style="fill:#dbeef3" />
+			<path
+   d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04"
+   id="path6217"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="M 7.75,832.48 A 6.02741,5.91539 0 0 1 3.77,832.12"
+   id="path6219"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 28.44,844.23 a 6.05365,5.94114 -180 0 0 1.1,1.78"
+   id="path6221"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 51.85,841.03 a 4.88677,4.79595 0 0 1 -0.54,2.13"
+   id="path6223"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 62.92,830.34 a 5.1278,5.0325 0 0 1 4.35,5.7"
+   id="path6225"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 72.36,823.93 a 4.68145,4.59445 -180 0 0 2.17,-2.14"
+   id="path6227"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 26.63,812.53 a 7.21923,7.08482 -180 0 0 -2.18,-1.42"
+   id="path6229"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			<rect
+   width="36"
+   height="21.599899"
+   x="20.2679"
+   y="817.271"
+   id="rect6231"
+   style="fill:#ffffff;fill-opacity:0;stroke:none" />
+			<text
+   x="20.27"
+   y="833.46997"
+   id="text6233">泄漏</text>
+
+		</g>
+<g
+   transform="translate(1022.2697,-821.41788)"
+   id="shape866-179"><title
+   id="title6261">机械 2.866</title>
+			
+			<g
+   id="shadow866-180"
+   style="visibility:visible" />
+		</g><g
+   transform="translate(1032.7497,-725.79188)"
+   id="group969-181"><title
+   id="title6265">特殊孔阀.969</title>
+			
+			<g
+   id="shape970-182"><title
+   id="title6268">工作表.970</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path6270"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape971-184"><title
+   id="title6273">工作表.971</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path6275"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path6277"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path6279"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path6281"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1032.7497,-699.84288)"
+   id="group973-189"><title
+   id="title6284">特殊孔阀.973</title>
+			
+			<g
+   id="shape974-190"><title
+   id="title6287">工作表.974</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path6289"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape975-192"><title
+   id="title6292">工作表.975</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path6294"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path6296"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path6298"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path6300"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1032.7497,-699.84288)"
+   id="group977-197"><title
+   id="title6303">特殊孔阀.977</title>
+			
+			<g
+   id="shape978-198"><title
+   id="title6306">工作表.978</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path6308"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape979-200"><title
+   id="title6311">工作表.979</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path6313"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path6315"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path6317"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path6319"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1032.7497,-672.42988)"
+   id="group981-205"><title
+   id="title6322">特殊孔阀.981</title>
+			
+			<g
+   id="shape982-206"><title
+   id="title6325">工作表.982</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path6327"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape983-208"><title
+   id="title6330">工作表.983</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path6332"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path6334"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path6336"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path6338"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="matrix(-1,0,0,-1,403.8677,1139.4461)"
+   id="group1065-222"><title
+   id="title8190">压力表.1065</title>
+			
+			<g
+   id="shape1066-223"><title
+   id="title8193">工作表.1066</title>
+				
+				<path
+   d="m 0,831.26 a 19.135,19.135 0 0 1 38.27,0 19.135,19.135 0 1 1 -38.27,0 z"
+   id="path8195"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,831.26 a 19.135,19.135 0 0 1 38.27,0 19.135,19.135 0 1 1 -38.27,0"
+   id="path8197"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 5.6,844.79 32.66,817.73"
+   id="path8199"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 32.66,844.79 5.6,817.73"
+   id="path8201"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,677.717,1366.39)"
+   id="shape1067-228"><title
+   id="title8204">工作表.1067</title>
+				
+			</g>
+			<g
+   id="shape1068-230"><title
+   id="title8207">工作表.1068</title>
+				
+				<path
+   d="m 38.27,831.26 8.06,0"
+   id="path8209"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(841.37975,-514.75388)"
+   id="shape1075-233"><title
+   id="title8212">机械 2.1075</title>
+			
+			<g
+   id="shadow1075-234"
+   style="visibility:visible">
+				<path
+   d="m 0,857.34 147.39,0.28"
+   id="path8215"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.34 147.39,0.28"
+   id="path8217"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(993.22975,-507.32988)"
+   id="shape1076-242"><title
+   id="title8220">机械 2.1076</title>
+			
+			<g
+   id="shadow1076-243"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 24.79,0 a 2.83465,2.83465 -180 0 0 2.83,-2.83 l 0,-95.34 a 2.83465,2.83465 0 0 1 2.84,-2.83 l 12,0"
+   id="path8223"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 24.79,0 a 2.83465,2.83465 -180 0 0 2.83,-2.83 l 0,-95.34 a 2.83465,2.83465 0 0 1 2.84,-2.83 l 12,0"
+   id="path8225"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(1027.3697,-588.83488)"
+   id="shape1077-251"><title
+   id="title8228">机械 2.1077</title>
+			
+			<g
+   id="shadow1077-252"
+   style="visibility:visible">
+				<path
+   d="m 0,857.34 35.97,0.28"
+   id="path8231"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.34 35.97,0.28"
+   id="path8233"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(1027.9397,-563.18188)"
+   id="shape1078-260"><title
+   id="title8236">机械 2.1078</title>
+			
+			<g
+   id="shadow1078-261"
+   style="visibility:visible">
+				<path
+   d="m 0,857.2 35.4,0.56"
+   id="path8239"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.2 35.4,0.56"
+   id="path8241"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="matrix(0,-1,1,0,311.0417,255.03012)"
+   id="shape1079-269"><title
+   id="title8244">气囊.1079</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path8246"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path8248"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path8250"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path8252"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(0,-1,1,0,311.0417,281.47512)"
+   id="shape1080-274"><title
+   id="title8255">气囊.1080</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path8257"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path8259"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path8261"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path8263"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="matrix(0,-1,1,0,311.0417,307.91912)"
+   id="shape1081-279"><title
+   id="title8266">气囊.1081</title>
+			
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0 z m 6.49,-39.24 6.48,19.62 6.49,-19.62 -12.97,0 z"
+   id="path8268"
+   style="fill:#789440" />
+			<path
+   d="m 0,791.53 0,58.86 25.94,0 0,-58.86 a 12.9711,19.5655 -180 1 0 -25.94,0"
+   id="path8270"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 6.49,752.29 6.48,19.62 6.49,-19.62 -12.97,0"
+   id="path8272"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			<path
+   d="m 12.97,752.29 0,19.62"
+   id="path8274"
+   style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="translate(1035.6897,-579.54888)"
+   id="group1086-284"><title
+   id="title8277">特殊孔阀.1086</title>
+			
+			<g
+   id="shape1087-285"><title
+   id="title8280">工作表.1087</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path8282"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape1088-287"><title
+   id="title8285">工作表.1088</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path8287"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path8289"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path8291"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path8293"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1035.6897,-579.54888)"
+   id="group1090-292"><title
+   id="title8296">特殊孔阀.1090</title>
+			
+			<g
+   id="shape1091-293"><title
+   id="title8299">工作表.1091</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path8301"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape1092-295"><title
+   id="title8304">工作表.1092</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path8306"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path8308"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path8310"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path8312"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1035.6897,-552.13588)"
+   id="group1094-300"><title
+   id="title8315">特殊孔阀.1094</title>
+			
+			<g
+   id="shape1095-301"><title
+   id="title8318">工作表.1095</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path8320"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape1096-303"><title
+   id="title8323">工作表.1096</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path8325"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path8327"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path8329"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path8331"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(1029.3497,-601.65188)"
+   id="shape1101-308"><title
+   id="title8334">机械 2.1101</title>
+			
+			<g
+   id="shadow1101-309"
+   style="visibility:visible">
+				<path
+   d="m 0,843.39 30.61,-0.16"
+   id="path8337"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.39 30.61,-0.16"
+   id="path8339"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(1035.6897,-603.09088)"
+   id="group1102-317"><title
+   id="title8342">特殊孔阀.1102</title>
+			
+			<g
+   id="shape1103-318"><title
+   id="title8345">工作表.1103</title>
+				
+				<path
+   d="m 0,839.91 0,10.48 20.22,-10.48 0,10.48 L 0,839.91 z"
+   id="path8347"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.26835,0)"
+   id="shape1104-320"><title
+   id="title8350">工作表.1104</title>
+				
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48 z"
+   id="path8352"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.4 7.68,0"
+   id="path8354"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 3.84,839.91 0,-6.51"
+   id="path8356"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 1.82,850.39 2.02,-2.09 2.02,2.09 0,-10.48 -4.04,0 0,10.48"
+   id="path8358"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(987.11975,-505.92188)"
+   id="shape1107-325"><title
+   id="title8361">机械 2.1107</title>
+			
+			<g
+   id="shadow1107-326"
+   style="visibility:visible">
+				<path
+   d="M 5.95,850.39 8.22,627.69"
+   id="path8364"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="M 5.95,850.39 8.22,627.69"
+   id="path8366"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(991.64975,-504.50388)"
+   id="shape1112-334"><title
+   id="title8369">接合点.1112</title>
+			
+		</g><g
+   transform="matrix(-1,0,0,-1,655.17975,1154.9561)"
+   id="group1114-336"><title
+   id="title8372">压力表.1114</title>
+			
+			<g
+   transform="translate(0,-18.0842)"
+   id="shape1115-337"><title
+   id="title8375">工作表.1115</title>
+				
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0 z"
+   id="path8377"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0"
+   id="path8379"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 6.23,844.17 36.29,814.1"
+   id="path8381"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 36.29,844.17 6.23,814.1"
+   id="path8383"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,680.637,1344.91)"
+   id="shape1116-342"><title
+   id="title8386">工作表.1116</title>
+				
+			</g>
+			<g
+   transform="translate(0,-18.0842)"
+   id="shape1117-344"><title
+   id="title8389">工作表.1117</title>
+				
+			</g>
+		</g><g
+   transform="translate(993.91975,-727.21088)"
+   id="shape1129-346"><title
+   id="title8392">接合点.1129</title>
+			
+		</g><g
+   transform="translate(995.33975,-721.54188)"
+   id="shape1130-348"><title
+   id="title8395">机械 2.1130</title>
+			
+			<g
+   id="shadow1130-349"
+   style="visibility:visible">
+				<path
+   d="m 0,843.31 65.06,0"
+   id="path8398"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.31 65.06,0"
+   id="path8400"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="matrix(-0.9999889,-0.00471237,0.00471237,-0.9999889,644.00975,931.16613)"
+   id="group1131-357"><title
+   id="title8403">压力表.1131</title>
+			
+			<g
+   transform="translate(0,-18.0844)"
+   id="shape1132-358"><title
+   id="title8406">工作表.1132</title>
+				
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0 z"
+   id="path8408"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0"
+   id="path8410"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 6.23,844.17 36.29,814.1"
+   id="path8412"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 36.29,844.17 6.23,814.1"
+   id="path8414"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,680.636,1344.91)"
+   id="shape1133-363"><title
+   id="title8417">工作表.1133</title>
+				
+			</g>
+			<g
+   transform="translate(0,-18.0844)"
+   id="shape1134-365"><title
+   id="title8420">工作表.1134</title>
+				
+			</g>
+		</g><g
+   transform="matrix(0,1,-1,0,1548.0898,98.425125)"
+   id="group1136-367"><title
+   id="title8423">温度计.1136</title>
+			
+			<g
+   transform="translate(0,-12.7559)"
+   id="shape1137-368"><title
+   id="title8426">工作表.1137</title>
+				
+				<path
+   d="m 0,829.13 a 21.26,21.26 0 0 1 42.52,0 21.26,21.26 0 1 1 -42.52,0 z"
+   id="path8428"
+   style="fill:#ddd6e5;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.37795,-30.8268)"
+   id="shape1138-370"><title
+   id="title8431">工作表.1138</title>
+				
+				<path
+   d="m 29.76,847.2 a 3.18898,3.18898 -180 0 0 -6.37,0 3.18898,3.18898 -180 0 0 6.37,0 z"
+   id="path8433"
+   style="fill:#000000" />
+				<path
+   d="m 29.76,847.2 a 3.18898,3.18898 -180 0 0 -6.37,0 3.18898,3.18898 -180 0 0 6.37,0"
+   id="path8435"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+				<path
+   d="m 0,847.2 29.76,0"
+   id="path8437"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+			</g>
+			<g
+   transform="translate(0,-12.7559)"
+   id="shape1139-374"><title
+   id="title8440">工作表.1139</title>
+				
+			</g>
+		</g><g
+   transform="translate(162.3187,-771.72988)"
+   id="shape1150-375"><title
+   id="title8443">接合点.235</title>
+			
+		</g><g
+   transform="translate(0.3767009,-768.97688)"
+   id="group1151-377"><title
+   id="title8446">油罐车</title>
+			
+			<g
+   transform="translate(4.24904,0)"
+   id="shape1152-378"><title
+   id="title8449">工作表.1152</title>
+				
+				<path
+   d="m 75.95,841.76 2.75,0 0,-3.24 a 2.83269,4.31639 0 0 1 2.83,4.32 2.835,4.3199099 0 1 1 -5.67,0 2.83269,4.31639 0 0 1 0.09,-1.08 z m -8.59,-3.24 0,3.24 2.75,0 a 2.83269,4.31639 0 0 1 0.09,1.08 2.835,4.3199099 0 0 1 -5.67,0 2.83269,4.31639 0 0 1 2.83,-4.32 z m -51.71,3.24 3.91,0 0,-2.85 a 2.83269,4.31639 0 0 1 1.66,3.93 2.83269,4.31639 0 0 1 -5.66,0 2.83269,4.31639 0 0 1 0.09,-1.08 z m -9.19,-3.14 0,3.14 3.34,0 a 2.83269,4.31639 0 0 1 0.09,1.08 2.83269,4.31639 0 1 1 -5.66,0 2.83269,4.31639 0 0 1 2.23,-4.22 z m 5.51,3.14 1.52,0 a 4.95721,7.55369 -180 0 0 -0.06,1.08 4.96,7.5579413 -180 0 0 9.92,0 4.95721,7.55369 -180 0 0 -2.4,-6.47 l 31.54,0 2.84,-3.24 15.4,0 0,1.08 4.42,0 0,-1.08 2.84,0 0.88,-1.08 -78.87,0 1.5,4.32 3.01,0 a 4.95721,7.55369 -180 0 0 -2.41,6.47 4.96,7.5579413 -180 1 0 9.92,0 4.95721,7.55369 -180 0 0 -0.05,-1.08 z m 92.25,-1.08 4.9,0 a 2.83269,4.31639 0 0 1 0.38,2.16 2.83269,4.31639 0 0 1 -5.66,0 2.83269,4.31639 0 0 1 0.38,-2.16 z m 7.2,0 0.56,0 0.71,4.32 0.71,0 0,-1.08 1.41,0 0,-17.27 -0.71,0 -0.7,-3.23 -10.63,-1.08 -3.54,-11.87 -11.33,0 0,9.71 -0.71,0 0,-17.27 -1.41,0 0,17.27 -0.71,0 0,14.03 -24.08,0 0.71,4.31 1.6,0 a 4.95721,7.55369 -180 0 0 -0.89,4.32 4.95721,7.55369 -180 0 0 9.91,0 4.95721,7.55369 -180 0 0 -0.05,-1.08 l 1.52,0 a 4.95721,7.55369 -180 0 0 -0.05,1.08 4.95721,7.55369 -180 0 0 9.91,0 4.95721,7.55369 -180 0 0 -0.89,-4.32 l 1.6,0 0.71,2.16 1.42,0 0,4.32 8.85,0 0,-1.62 5.31,0 0.71,-2.7 0.56,0 a 4.95721,7.55369 -180 0 0 -0.21,2.16 4.96,7.5579413 -180 1 0 9.92,0 4.95721,7.55369 -180 0 0 -0.21,-2.16 z"
+   id="path8451"
+   style="fill:#92d050;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(0,-3.23729)"
+   id="shape1153-380"><title
+   id="title8454">工作表.1153</title>
+				
+				<path
+   d="m 61.7,809.39 2.83,0 0,-1.08 -2.83,0 0,1.08 z m -19.83,0 2.83,0 0,-1.08 -2.83,0 0,1.08 z m -19.83,0 2.83,0 0,-1.08 -2.83,0 0,1.08 z m 61.61,0 -80.82,0 a 12.95,2.832865 -90 1 0 0,25.9 l 80.82,0 a 12.95,2.832865 -90 1 0 0,-25.9 z M 8.48,846.08 a 2.83269,4.31639 -180 1 0 5.66,0 2.83269,4.31639 -180 1 0 -5.66,0 z m 11.33,0 a 2.83269,4.31639 -180 1 0 5.66,0 2.83269,4.31639 -180 1 0 -5.66,0 z m 48.97,0 a 2.835,4.3199099 -180 0 0 5.67,0 2.835,4.3199099 -180 0 0 -5.67,0 z m 11.33,0 a 2.835,4.3199099 -180 1 0 5.67,0 2.835,4.3199099 -180 1 0 -5.67,0 z m 27.97,0 a 2.835,4.3199099 -180 1 0 5.67,0 2.835,4.3199099 -180 0 0 -5.67,0 z"
+   id="path8456"
+   style="fill:#92d050;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(119.4377,-785.62988)"
+   id="shape1154-382"><title
+   id="title8459">机械 2.262</title>
+			
+			<g
+   id="shadow1154-383"
+   style="visibility:visible">
+				<path
+   d="m 0,843.31 25.51,0"
+   id="path8462"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,843.31 25.51,0"
+   id="path8464"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="matrix(-0.99999822,-0.00188495,0.00188495,-0.99999822,950.11975,1173.0061)"
+   id="group1156-402"><title
+   id="title8492">压力表.1156</title>
+			
+			<g
+   transform="translate(0,-0.0861974)"
+   id="shape1157-403"><title
+   id="title8495">工作表.1157</title>
+				
+				<path
+   d="m 0,830.3 a 20.096,20.096 0 0 1 40.19,0 20.096,20.096 0 1 1 -40.19,0 z"
+   id="path8497"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,830.3 a 20.096,20.096 0 0 1 40.19,0 20.096,20.096 0 1 1 -40.19,0"
+   id="path8499"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 5.89,844.51 34.31,816.09"
+   id="path8501"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 34.31,844.51 5.89,816.09"
+   id="path8503"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,679.038,1364.77)"
+   id="shape1158-408"><title
+   id="title8506">工作表.1158</title>
+				
+			</g>
+			<g
+   transform="translate(0,-0.0861974)"
+   id="shape1159-410"><title
+   id="title8509">工作表.1159</title>
+				
+			</g>
+		</g><g
+   transform="translate(681.82975,-352.28388)"
+   id="shape1175-412"><title
+   id="title8512">机械 2.25</title>
+			
+			<g
+   id="shadow1175-413"
+   style="visibility:visible">
+				<path
+   d="m -1.13,850.39 0,-65.19 a 2.83465,2.83465 -180 0 0 -2.84,-2.84 l -9.07,0"
+   id="path8515"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m -1.13,850.39 0,-65.19 a 2.83465,2.83465 -180 0 0 -2.84,-2.84 l -9.07,0"
+   id="path8517"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(672.18975,-237.48087)"
+   id="shadow1176-422"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 0,-86.45 a 2.83465,2.83465 -180 0 0 -2.83,-2.84 l -79.37,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-87.47"
+   id="path8523"
+   style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g><path
+   d="m 672.18975,612.90912 0,-86.45 a 2.83465,2.83465 0 0 0 -2.83,-2.84 l -79.37,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-87.47"
+   id="path8525"
+   style="stroke:#7f7f7f;stroke-width:8;stroke-linecap:round;stroke-linejoin:round" /><g
+   transform="translate(667.36975,-418.89788)"
+   id="shape1177-430"><title
+   id="title8528">接合点.1177</title>
+			
+		</g><g
+   transform="translate(668.78975,-420.31488)"
+   id="shape1178-432"><title
+   id="title8531">机械 2.1178</title>
+			
+			<g
+   id="shadow1178-433"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 -95.81,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-19.56 a 2.83465,2.83465 0 0 1 2.84,-2.83 l 120.43,0"
+   id="path8534"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+				<path
+   d="m 30.28,825.17 160.21,0"
+   id="path8536"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 -95.81,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-19.56 a 2.83465,2.83465 0 0 1 2.84,-2.83 l 120.43,0"
+   id="path8538"
+   style="stroke:#7f7f7f;stroke-width:8" />
+			<path
+   d="m 30.28,825.17 160.21,0"
+   id="path8540"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(612.37975,-416.71388)"
+   id="group1201-443"><title
+   id="title8543">特殊孔阀.579</title>
+			
+			<g
+   id="shape1202-444"><title
+   id="title8546">工作表.1202</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8548"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1203-446"><title
+   id="title8551">工作表.1203</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8553"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8555"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8557"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8559"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(612.37975,-323.17087)"
+   id="group1205-451"><title
+   id="title8562">特殊孔阀.1205</title>
+			
+			<g
+   id="shape1206-452"><title
+   id="title8565">工作表.1206</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8567"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1207-454"><title
+   id="title8570">工作表.1207</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8572"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8574"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8576"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8578"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(765.72975,-414.61588)"
+   id="shadow1220-460"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 -66.66,0 a 2.83465,2.83465 0 0 1 -2.83,-2.83 l 0,-36.85 a 2.83465,2.83465 0 0 1 2.83,-2.84 l 155.21,0 a 2.83465,2.83465 -180 0 0 2.83,-2.83 l 0,-42.11"
+   id="path8584"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g><path
+   d="m 765.72975,435.77412 -66.66,0 a 2.83465,2.83465 0 0 1 -2.83,-2.83 l 0,-36.85 a 2.83465,2.83465 0 0 1 2.83,-2.84 l 155.21,0 a 2.83465,2.83465 0 0 0 2.83,-2.83 l 0,-42.11"
+   id="path8586"
+   style="stroke:#7f7f7f;stroke-width:8" /><g
+   transform="translate(857.85975,-444.12588)"
+   id="shape1222-468"><title
+   id="title8589">接合点.1222</title>
+			
+		</g><g
+   transform="translate(859.26975,-445.54388)"
+   id="shape1223-470"><title
+   id="title8592">机械 2.1223</title>
+			
+			<g
+   id="shadow1223-471"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 130.96,0 a 2.83465,2.83465 -180 0 0 2.84,-2.83 l 0,-57.54"
+   id="path8595"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 130.96,0 a 2.83465,2.83465 -180 0 0 2.84,-2.83 l 0,-57.54"
+   id="path8597"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(760.50975,-238.33087)"
+   id="shape1228-479"><title
+   id="title8600">机械 2.1228</title>
+			
+			<g
+   id="shadow1228-480"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 0,-85.82 a 2.83465,2.83465 -180 0 0 -2.83,-2.84 l -48.04,0 a 2.83465,2.83465 0 0 1 -2.83,-2.83 l 0,-86.52"
+   id="path8603"
+   style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 0,-85.82 a 2.83465,2.83465 -180 0 0 -2.83,-2.84 l -48.04,0 a 2.83465,2.83465 0 0 1 -2.83,-2.83 l 0,-86.52"
+   id="path8605"
+   style="stroke:#7f7f7f;stroke-width:8;stroke-linecap:round;stroke-linejoin:round" />
+		</g><g
+   transform="translate(679.26975,-350.86688)"
+   id="shape1229-488"><title
+   id="title8608">接合点.1229</title>
+			
+		</g><g
+   transform="translate(680.68975,-359.37088)"
+   id="shape1230-490"><title
+   id="title8611">机械 2.1230</title>
+			
+			<g
+   id="shadow1230-491"
+   style="visibility:visible">
+				<path
+   d="m 0,857.48 23.28,0"
+   id="path8614"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+				<path
+   d="m 28.95,857.48 73.1,0"
+   id="path8616"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.48 23.28,0"
+   id="path8618"
+   style="stroke:#7f7f7f;stroke-width:8" />
+			<path
+   d="m 28.95,857.48 73.1,0"
+   id="path8620"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(782.73975,-352.28388)"
+   id="shape1233-501"><title
+   id="title8623">机械 2.1233</title>
+			
+			<g
+   id="shadow1233-502"
+   style="visibility:visible">
+				<path
+   d="m 0,850.39 0,-59.52 a 2.83465,2.83465 -180 0 0 -2.83,-2.83 l -16.01,0"
+   id="path8626"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,850.39 0,-59.52 a 2.83465,2.83465 -180 0 0 -2.83,-2.83 l -16.01,0"
+   id="path8628"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(781.31975,-350.86688)"
+   id="shape1234-510"><title
+   id="title8631">接合点.1234</title>
+			
+		</g><g
+   transform="translate(782.73975,-359.37088)"
+   id="shape1235-512"><title
+   id="title8634">机械 2.1235</title>
+			
+			<g
+   id="shadow1235-513"
+   style="visibility:visible">
+				<path
+   d="m 0,857.48 222.24,0"
+   id="path8637"
+   style="fill:none;stroke:#000000;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+			</g>
+			<path
+   d="m 0,857.48 222.24,0"
+   id="path8639"
+   style="stroke:#7f7f7f;stroke-width:8" />
+		</g><g
+   transform="translate(718.24975,-323.17087)"
+   id="group1244-521"><title
+   id="title8642">特殊孔阀.1244</title>
+			
+			<g
+   id="shape1245-522"><title
+   id="title8645">工作表.1245</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8647"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1246-524"><title
+   id="title8650">工作表.1246</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8652"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8654"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8656"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8658"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(727.17975,-409.62688)"
+   id="group1249-529"><title
+   id="title8661">特殊孔阀.1249</title>
+			
+			<g
+   id="shape1250-530"><title
+   id="title8664">工作表.1250</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8666"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1251-532"><title
+   id="title8669">工作表.1251</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8671"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8673"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8675"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8677"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="matrix(0,1,-1,0,1644.6498,476.84912)"
+   id="group1255-537"><title
+   id="title8680">温度计.474</title>
+			
+			<g
+   transform="translate(0,-1.23401)"
+   id="shape1256-538"><title
+   id="title8683">工作表.1256</title>
+				
+				<path
+   d="m 0,829.13 a 21.2603,21.2603 0 0 1 42.52,0 21.2603,21.2603 0 1 1 -42.52,0 z"
+   id="path8685"
+   style="fill:#ddd6e5;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.37808,-19.3052)"
+   id="shape1257-540"><title
+   id="title8688">工作表.1257</title>
+				
+				<path
+   d="m 29.76,847.2 a 3.18904,3.18904 -180 1 0 -6.37,0 3.18904,3.18904 -180 0 0 6.37,0 z"
+   id="path8690"
+   style="fill:#000000" />
+				<path
+   d="m 29.76,847.2 a 3.18904,3.18904 -180 1 0 -6.37,0 3.18904,3.18904 -180 0 0 6.37,0"
+   id="path8692"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+				<path
+   d="m 0,847.2 29.76,0"
+   id="path8694"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+			</g>
+			<g
+   transform="translate(0,-1.23401)"
+   id="shape1258-544"><title
+   id="title8697">工作表.1258</title>
+				
+			</g>
+		</g><g
+   transform="translate(920.40975,-326.77187)"
+   id="group1265-545"><title
+   id="title8700"> 流量计.519</title>
+			
+			<g
+   transform="translate(0,-0.804381)"
+   id="shape1266-546"><title
+   id="title8703">工作表.1266</title>
+				
+				<path
+   d="m 0,829.94 a 20.4563,20.4563 -180 0 0 40.91,0 20.4563,20.4563 -180 0 0 -40.91,0 z"
+   id="path8705"
+   style="fill:#c4d6a0" />
+				<path
+   d="m 0,829.94 a 20.4563,20.4563 -180 0 0 40.91,0 20.4563,20.4563 -180 0 0 -40.91,0"
+   id="path8707"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 6.14,815.62 a 17.8993,17.8993 -180 0 0 28.64,0"
+   id="path8709"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 34.78,844.26 a 17.8993,17.8993 -180 0 0 -28.64,0"
+   id="path8711"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(0,-0.804381)"
+   id="shape1267-551"><title
+   id="title8714">工作表.1267</title>
+				
+			</g>
+		</g><g
+   transform="matrix(-1,0,0,-1,901.78975,1328.3261)"
+   id="group1269-552"><title
+   id="title8717">压力表.1269</title>
+			
+			<g
+   id="shape1270-553"><title
+   id="title8720">工作表.1270</title>
+				
+				<path
+   d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0 z"
+   id="path8722"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0"
+   id="path8724"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 5.91,844.48 34.45,815.94"
+   id="path8726"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 34.45,844.48 5.91,815.94"
+   id="path8728"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,679.157,1364.71)"
+   id="shape1271-558"><title
+   id="title8731">工作表.1271</title>
+				
+			</g>
+			<g
+   id="shape1272-560"><title
+   id="title8734">工作表.1272</title>
+				
+				<path
+   d="m 40.36,830.21 2.16,0"
+   id="path8736"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="matrix(0,1,-1,0,1644.6498,595.90512)"
+   id="group1274-563"><title
+   id="title8739">温度计.1274</title>
+			
+			<g
+   transform="translate(0,-1.23401)"
+   id="shape1275-564"><title
+   id="title8742">工作表.1275</title>
+				
+				<path
+   d="m 0,829.13 a 21.2603,21.2603 0 0 1 42.52,0 21.2603,21.2603 0 1 1 -42.52,0 z"
+   id="path8744"
+   style="fill:#ddd6e5;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(6.37808,-19.3052)"
+   id="shape1276-566"><title
+   id="title8747">工作表.1276</title>
+				
+				<path
+   d="m 29.76,847.2 a 3.18904,3.18904 -180 1 0 -6.37,0 3.18904,3.18904 -180 0 0 6.37,0 z"
+   id="path8749"
+   style="fill:#000000" />
+				<path
+   d="m 29.76,847.2 a 3.18904,3.18904 -180 1 0 -6.37,0 3.18904,3.18904 -180 0 0 6.37,0"
+   id="path8751"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+				<path
+   d="m 0,847.2 29.76,0"
+   id="path8753"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:butt" />
+			</g>
+			<g
+   transform="translate(0,-1.23401)"
+   id="shape1277-570"><title
+   id="title8756">工作表.1277</title>
+				
+			</g>
+		</g><g
+   transform="matrix(-1,0,0,-1,901.78975,1449.6461)"
+   id="group1279-571"><title
+   id="title8759">压力表.1279</title>
+			
+			<g
+   id="shape1280-572"><title
+   id="title8762">工作表.1280</title>
+				
+				<path
+   d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0 z"
+   id="path8764"
+   style="fill:#92cddc" />
+				<path
+   d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0"
+   id="path8766"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 5.91,844.48 34.45,815.94"
+   id="path8768"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="M 34.45,844.48 5.91,815.94"
+   id="path8770"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,679.157,1364.71)"
+   id="shape1281-577"><title
+   id="title8773">工作表.1281</title>
+				
+			</g>
+			<g
+   id="shape1282-579"><title
+   id="title8776">工作表.1282</title>
+				
+				<path
+   d="m 40.36,830.21 2.16,0"
+   id="path8778"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(918.79975,-209.69988)"
+   id="group1284-582"><title
+   id="title8781"> 流量计.1284</title>
+			
+			<g
+   transform="translate(0,-8.59768e-4)"
+   id="shape1285-583"><title
+   id="title8784">工作表.1285</title>
+				
+				<path
+   d="m 0,829.13 a 21.26,21.26 -180 1 0 42.52,0 21.26,21.26 -180 1 0 -42.52,0 z"
+   id="path8786"
+   style="fill:#c4d6a0" />
+				<path
+   d="m 0,829.13 a 21.26,21.26 -180 1 0 42.52,0 21.26,21.26 -180 1 0 -42.52,0"
+   id="path8788"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 6.38,814.25 a 18.6024,18.6024 -180 0 0 29.76,0"
+   id="path8790"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 36.14,844.02 a 18.6024,18.6024 -180 0 0 -29.76,0"
+   id="path8792"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(0,-8.59768e-4)"
+   id="shape1286-588"><title
+   id="title8795">工作表.1286</title>
+				
+			</g>
+		</g><g
+   transform="translate(879.58975,-723.28388)"
+   id="group1300-589"><title
+   id="title8798">特殊孔阀.1300</title>
+			
+			<g
+   id="shape1301-590"><title
+   id="title8801">工作表.1301</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8803"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1302-592"><title
+   id="title8806">工作表.1302</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8808"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8810"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8812"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8814"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(879.58975,-504.50388)"
+   id="group1304-597"><title
+   id="title8817">特殊孔阀.1304</title>
+			
+			<g
+   id="shape1305-598"><title
+   id="title8820">工作表.1305</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8822"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1306-600"><title
+   id="title8825">工作表.1306</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8827"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8829"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8831"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8833"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(767.52975,-504.26288)"
+   id="group1308-605"><title
+   id="title8836">特殊孔阀.1308</title>
+			
+			<g
+   id="shape1309-606"><title
+   id="title8839">工作表.1309</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8841"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1310-608"><title
+   id="title8844">工作表.1310</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8846"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8848"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8850"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8852"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(778.19975,-723.28388)"
+   id="group1312-613"><title
+   id="title8855">特殊孔阀.1312</title>
+			
+			<g
+   id="shape1313-614"><title
+   id="title8858">工作表.1313</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8860"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1314-616"><title
+   id="title8863">工作表.1314</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8865"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8867"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8869"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8871"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(425.0067,-789.14488)"
+   id="group1316-621"><title
+   id="title8874">特殊孔阀.1316</title>
+			
+			<g
+   id="shape1317-622"><title
+   id="title8877">工作表.1317</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8879"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1318-624"><title
+   id="title8882">工作表.1318</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8884"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8886"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8888"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8890"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(425.0067,-537.18588)"
+   id="group1320-629"><title
+   id="title8893">特殊孔阀.1320</title>
+			
+			<g
+   id="shape1321-630"><title
+   id="title8896">工作表.1321</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8898"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1322-632"><title
+   id="title8901">工作表.1322</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8903"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8905"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8907"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8909"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(518.5497,-346.93988)"
+   id="group1328-637"><title
+   id="title8912">特殊孔阀.1296</title>
+			
+			<g
+   id="shape1329-638"><title
+   id="title8915">工作表.1329</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8917"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1330-640"><title
+   id="title8920">工作表.1330</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8922"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8924"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8926"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8928"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g><g
+   transform="translate(518.5497,-224.72488)"
+   id="group1332-645"><title
+   id="title8931">特殊孔阀.1332</title>
+			
+			<g
+   id="shape1333-646"><title
+   id="title8934">工作表.1333</title>
+				
+				<path
+   d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+   id="path8936"
+   style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+			<g
+   transform="translate(8.08441,0)"
+   id="shape1334-648"><title
+   id="title8939">工作表.1334</title>
+				
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+   id="path8941"
+   style="fill:#b7dde8" />
+				<path
+   d="m 0,833.08 9.91,0"
+   id="path8943"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 4.95,839.71 0,-6.63"
+   id="path8945"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+				<path
+   d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+   id="path8947"
+   style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+			</g>
+		</g>
+<g
+   transform="matrix(-0.99999997,0,0,-0.99999997,407.69921,889.155)"
+   id="group1065-222-1"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><title
+     id="title8190-7">压力表.1065</title><g
+     id="shape1066-223-4"><title
+       id="title8193-0">工作表.1066</title><path
+       d="m 0,831.26 a 19.135,19.135 0 0 1 38.27,0 19.135,19.135 0 1 1 -38.27,0 z"
+       id="path8195-9"
+       style="fill:#92cddc" /><path
+       d="m 0,831.26 a 19.135,19.135 0 0 1 38.27,0 19.135,19.135 0 1 1 -38.27,0"
+       id="path8197-4"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+       d="M 5.6,844.79 32.66,817.73"
+       id="path8199-8"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+       d="M 32.66,844.79 5.6,817.73"
+       id="path8201-8"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /></g><g
+     transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,677.717,1366.39)"
+     id="shape1067-228-2"><title
+       id="title8204-4">工作表.1067</title></g><g
+     id="shape1068-230-5"><title
+       id="title8207-5">工作表.1068</title><path
+       d="m 38.27,831.26 8.06,0"
+       id="path8209-1"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /></g></g><g
+   transform="translate(274.65523,-788.54091)"
+   id="group1316-621-7"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><title
+     id="title8874-1">特殊孔阀.1316</title><g
+     id="shape1317-622-1"><title
+       id="title8877-5">工作表.1317</title><path
+       d="m 0,839.71 0,10.68 26.08,-10.68 0,10.68 L 0,839.71 z"
+       id="path8879-2"
+       style="fill:#b7dde8;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /></g><g
+     transform="translate(8.08441,0)"
+     id="shape1318-624-7"><title
+       id="title8882-6">工作表.1318</title><path
+       d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68 z"
+       id="path8884-1"
+       style="fill:#b7dde8" /><path
+       d="m 0,833.08 9.91,0"
+       id="path8886-4"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+       d="m 4.95,839.71 0,-6.63"
+       id="path8888-2"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+       d="m 2.35,850.39 2.6,-2.13 2.61,2.13 0,-10.68 -5.21,0 0,10.68"
+       id="path8890-3"
+       style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /></g></g><text
+   x="964.51343"
+   y="78.834259"
+   transform="scale(1.0760773,0.92930127)"
+   id="text4843-2"
+   xml:space="preserve"
+   style="font-size:18.6694603px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="964.51343"
+     y="78.834259"
+     id="tspan4845-2">泄漏</tspan></text>
+<g
+   transform="translate(268.22123,-676.15529)"
+   id="shape840-157-1"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><title
+     id="title6211-6">云朵.840</title><desc
+     id="desc6213-8">泄漏</desc><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04 z"
+     id="path6215-5"
+     style="fill:#dbeef3" /><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04"
+     id="path6217-7"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="M 7.75,832.48 A 6.02741,5.91539 0 0 1 3.77,832.12"
+     id="path6219-6"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 28.44,844.23 a 6.05365,5.94114 -180 0 0 1.1,1.78"
+     id="path6221-1"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 51.85,841.03 a 4.88677,4.79595 0 0 1 -0.54,2.13"
+     id="path6223-8"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 62.92,830.34 a 5.1278,5.0325 0 0 1 4.35,5.7"
+     id="path6225-9"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 72.36,823.93 a 4.68145,4.59445 -180 0 0 2.17,-2.14"
+     id="path6227-2"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 26.63,812.53 a 7.21923,7.08482 -180 0 0 -2.18,-1.42"
+     id="path6229-7"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><rect
+     width="36"
+     height="21.599899"
+     x="20.2679"
+     y="817.271"
+     id="rect6231-9"
+     style="fill:#ffffff;fill-opacity:0;stroke:none" /><text
+     x="20.27"
+     y="833.46997"
+     id="text6233-5">泄漏</text>
+</g><text
+   x="264.55634"
+   y="171.15019"
+   transform="scale(1.0760773,0.92930127)"
+   id="text4843-2-4"
+   xml:space="preserve"
+   style="font-size:18.6694603px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="264.55634"
+     y="171.15019"
+     id="tspan4845-2-3">泄漏</tspan></text>
+<g
+   transform="translate(1009.0865,-411.02333)"
+   id="shape840-157-12"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><title
+     id="title6211-3">云朵.840</title><desc
+     id="desc6213-3">泄漏</desc><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04 z"
+     id="path6215-4"
+     style="fill:#dbeef3" /><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04"
+     id="path6217-1"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="M 7.75,832.48 A 6.02741,5.91539 0 0 1 3.77,832.12"
+     id="path6219-1"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 28.44,844.23 a 6.05365,5.94114 -180 0 0 1.1,1.78"
+     id="path6221-3"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 51.85,841.03 a 4.88677,4.79595 0 0 1 -0.54,2.13"
+     id="path6223-87"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 62.92,830.34 a 5.1278,5.0325 0 0 1 4.35,5.7"
+     id="path6225-4"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 72.36,823.93 a 4.68145,4.59445 -180 0 0 2.17,-2.14"
+     id="path6227-27"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 26.63,812.53 a 7.21923,7.08482 -180 0 0 -2.18,-1.42"
+     id="path6229-79"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><rect
+     width="36"
+     height="21.599899"
+     x="20.2679"
+     y="817.271"
+     id="rect6231-3"
+     style="fill:#ffffff;fill-opacity:0;stroke:none" /><text
+     x="20.27"
+     y="833.46997"
+     id="text6233-1">泄漏</text>
+</g><text
+   x="956.53821"
+   y="454.42926"
+   transform="scale(1.0760773,0.92930127)"
+   id="text4843-2-9"
+   xml:space="preserve"
+   style="font-size:18.6694603px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="956.53821"
+     y="454.42926"
+     id="tspan4845-2-8">泄漏</tspan></text>
+<text
+   x="634.62292"
+   y="214.57114"
+   transform="matrix(0.80000189,0,0,0.80000189,-0.00116364,0)"
+   id="text4988"
+   xml:space="preserve"
+   style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+     x="634.62292"
+     y="214.57114"
+     id="tspan4990" /></text>
+<text
+   x="476.31711"
+   y="174.3821"
+   transform="scale(0.98698822,1.0131833)"
+   id="text4843-2-6"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="476.31711"
+     y="174.3821"
+     id="tspan4845-2-5">压缩机450A</tspan></text>
+<text
+   x="471.27499"
+   y="419.5618"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-0"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="471.27499"
+     y="419.5618"
+     id="tspan4845-2-5-2">压缩机450B</tspan></text>
+<text
+   x="374.11194"
+   y="341.61395"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="374.11194"
+     y="341.61395"
+     id="tspan4845-2-5-6">压力</tspan></text>
+<text
+   x="625.41498"
+   y="377.77057"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="625.41498"
+     y="377.77057"
+     id="tspan4845-2-5-6-2">压力</tspan></text>
+<text
+   x="725.43579"
+   y="377.77057"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-4"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="725.43579"
+     y="377.77057"
+     id="tspan4845-2-5-6-2-8">温度</tspan></text>
+<text
+   x="619.69952"
+   y="165.26982"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-6"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="619.69952"
+     y="165.26982"
+     id="tspan4845-2-5-6-2-5">压力</tspan></text>
+<text
+   x="726.87268"
+   y="166.26468"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-4-0"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="726.87268"
+     y="166.26468"
+     id="tspan4845-2-5-6-2-8-9">温度</tspan></text>
+<text
+   x="876.89581"
+   y="532.7384"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-0"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="876.89581"
+     y="532.7384"
+     id="tspan4845-2-5-6-2-0">压力</tspan></text>
+<text
+   x="811.65222"
+   y="532.8053"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-4-6"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="811.65222"
+     y="532.8053"
+     id="tspan4845-2-5-6-2-8-1">温度</tspan></text>
+<text
+   x="938.81348"
+   y="537.37811"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-0-3"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="938.81348"
+     y="537.37811"
+     id="tspan4845-2-5-6-2-0-8">流量</tspan></text>
+<text
+   x="1227.3647"
+   y="140.19839"
+   transform="scale(0.89309153,1.1197061)"
+   id="text4843-2-93"
+   xml:space="preserve"
+   style="font-size:23.69220161px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1227.3647"
+     y="140.19839"
+     id="tspan4845-2-4">储氢A</tspan></text>
+<text
+   x="1229.1884"
+   y="250.07803"
+   transform="scale(0.8930915,1.1197061)"
+   id="text4843-2-93-4"
+   xml:space="preserve"
+   style="font-size:23.69220352px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1229.1884"
+     y="250.07803"
+     id="tspan4845-2-4-6">储氢B</tspan></text>
+<text
+   x="948.33923"
+   y="161.55803"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-6-0"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="948.33923"
+     y="161.55803"
+     id="tspan4845-2-5-6-2-5-6">压力</tspan></text>
+<text
+   x="927.38251"
+   y="379.62646"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-0-6-6"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="927.38251"
+     y="379.62646"
+     id="tspan4845-2-5-6-2-5-1">压力</tspan></text>
+<text
+   x="379.64957"
+   y="94.74556"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="379.64957"
+     y="94.74556"
+     id="tspan4845-2-5-6-4">压力</tspan></text>
+<text
+   x="387.63135"
+   y="117.25021"
+   transform="scale(0.98698824,1.0131833)"
+   id="Pin_H2_1_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="387.63135"
+     y="117.25021"
+     id="tspan4845-2-5-6-4-6-8">{}</tspan></text>
+<text
+   x="519.15497"
+   y="193.34218"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-2"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="519.15497"
+     y="193.34218"
+     id="tspan4845-2-5-6-4-6-9">{}</tspan></text>
+<text
+   x="630.60669"
+   y="184.99063"
+   transform="scale(0.98698824,1.0131833)"
+   id="Pout_H2_1_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="630.60669"
+     y="184.99063"
+     id="tspan4845-2-5-6-4-6-3">{}</tspan></text>
+<text
+   x="740.15332"
+   y="189.63037"
+   transform="scale(0.98698824,1.0131833)"
+   id="Tout_H2_1_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="740.15332"
+     y="189.63037"
+     id="tspan4845-2-5-6-4-6-98">{}</tspan></text>
+<text
+   x="964.00934"
+   y="180.35086"
+   transform="scale(0.98698824,1.0131833)"
+   id="P_H_tank_2_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="964.00934"
+     y="180.35086"
+     id="tspan4845-2-5-6-4-6-0">{}</tspan></text>
+<text
+   x="381.98358"
+   y="268.5062"
+   transform="scale(0.98698824,1.0131833)"
+   id="Pin_H2_2_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="381.98358"
+     y="268.5062"
+     id="tspan4845-2-5-6-4-6-6">{}</tspan></text>
+<text
+   x="633.46442"
+   y="300.05652"
+   transform="scale(0.98698824,1.0131833)"
+   id="Pout_H2_2_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="633.46442"
+     y="300.05652"
+     id="tspan4845-2-5-6-4-6-1">{}</tspan></text>
+<text
+   x="734.43781"
+   y="296.34473"
+   transform="scale(0.98698824,1.0131833)"
+   id="Tout_H2_2_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="734.43781"
+     y="296.34473"
+     id="tspan4845-2-5-6-4-6-2">{}</tspan></text>
+<text
+   x="936.38458"
+   y="300.98447"
+   transform="scale(0.98698824,1.0131833)"
+   id="P_L_TANK_2_1"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="936.38458"
+     y="300.98447"
+     id="tspan4845-2-5-6-4-6-97">{}</tspan></text>
+<text
+   x="819.21735"
+   y="452.24045"
+   transform="scale(0.98698824,1.0131833)"
+   id="AT_A"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="819.21735"
+     y="452.24045"
+     id="tspan4845-2-5-6-4-6-26">{}</tspan></text>
+<text
+   x="892.56592"
+   y="453.16843"
+   transform="scale(0.98698824,1.0131833)"
+   id="Plinest_A"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="892.56592"
+     y="453.16843"
+     id="tspan4845-2-5-6-4-6-65">{}</tspan></text>
+<text
+   x="951.62579"
+   y="449.4566"
+   transform="scale(0.98698824,1.0131833)"
+   id="Llinest_A"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="951.62579"
+     y="449.4566"
+     id="tspan4845-2-5-6-4-6-4">{}</tspan></text>
+<text
+   x="821.1225"
+   y="568.23431"
+   transform="scale(0.98698824,1.0131833)"
+   id="AT_B"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="821.1225"
+     y="568.23431"
+     id="tspan4845-2-5-6-4-6-00">{}</tspan></text>
+<text
+   x="887.80304"
+   y="568.23431"
+   transform="scale(0.98698824,1.0131833)"
+   id="Plinest_B"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="887.80304"
+     y="568.23431"
+     id="tspan4845-2-5-6-4-6-60">{}</tspan></text>
+<text
+   x="951.62579"
+   y="569.16229"
+   transform="scale(0.98698824,1.0131833)"
+   id="Llinest_B"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="951.62579"
+     y="569.16229"
+     id="tspan4845-2-5-6-4-6-77">{}</tspan></text>
+<text
+   x="83.869408"
+   y="441.36691"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="83.869408"
+     y="441.36691"
+     id="tspan4845-2-5-6-4-6">{}</tspan></text>
+<text
+   x="83.195831"
+   y="478.76804"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-77"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="83.195831"
+     y="478.76804"
+     id="tspan4845-2-5-6-4-6-33">{}</tspan></text>
+<text
+   x="84.542984"
+   y="512.23224"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-59"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="84.542984"
+     y="512.23224"
+     id="tspan4845-2-5-6-4-6-981">{}</tspan></text>
+<text
+   x="81.848686"
+   y="555.53882"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-82"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="81.848686"
+     y="555.53882"
+     id="tspan4845-2-5-6-4-6-66">{}</tspan></text>
+<g
+   transform="translate(145.20891,-769.63363)"
+   id="shape840-157-1-1"
+   style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"><title
+     id="title6211-6-2">云朵.840</title><desc
+     id="desc6213-8-5">泄漏</desc><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04 z"
+     id="path6215-5-0"
+     style="fill:#dbeef3" /><path
+     d="m 3.77,832.12 a 6.04411,5.93178 0 0 1 2.9,-11.39 12.2568,12.029 0 0 1 17.78,-9.62 14.0742,13.8126 0 0 1 15.24,-2.14 8.82575,8.66173 0 0 1 13.07,-0.71 10.0483,9.86155 0 0 1 15.97,3.56 7.18481,7.05105 0 0 1 5.8,9.97 8.89931,8.73363 0 0 1 -7.26,14.25 11.2272,11.0182 0 0 1 -15.96,7.12 13.2378,12.9914 0 0 1 -21.77,2.85 16.7807,16.4682 0 0 1 -18.88,-2.85 6.62031,6.49728 0 0 1 -6.89,-11.04"
+     id="path6217-7-9"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="M 7.75,832.48 A 6.02741,5.91539 0 0 1 3.77,832.12"
+     id="path6219-6-4"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 28.44,844.23 a 6.05365,5.94114 -180 0 0 1.1,1.78"
+     id="path6221-1-7"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 51.85,841.03 a 4.88677,4.79595 0 0 1 -0.54,2.13"
+     id="path6223-8-8"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 62.92,830.34 a 5.1278,5.0325 0 0 1 4.35,5.7"
+     id="path6225-9-3"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 72.36,823.93 a 4.68145,4.59445 -180 0 0 2.17,-2.14"
+     id="path6227-2-5"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><path
+     d="m 26.63,812.53 a 7.21923,7.08482 -180 0 0 -2.18,-1.42"
+     id="path6229-7-1"
+     style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" /><rect
+     width="36"
+     height="21.599899"
+     x="20.2679"
+     y="817.271"
+     id="rect6231-9-2"
+     style="fill:#ffffff;fill-opacity:0;stroke:none" /><text
+     x="20.27"
+     y="833.46997"
+     id="text6233-5-0">泄漏</text>
+</g><text
+   x="150.24081"
+   y="70.560249"
+   transform="scale(1.0760773,0.92930127)"
+   id="text4843-2-4-1"
+   xml:space="preserve"
+   style="font-size:18.6694603px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="150.24081"
+     y="70.560249"
+     id="tspan4845-2-3-6">泄漏</tspan></text>
+<text
+   x="9.1135941"
+   y="352.79388"
+   transform="scale(0.87197756,1.1468185)"
+   id="text4843-2-4-4"
+   xml:space="preserve"
+   style="font-size:27.70496368px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="9.1135941"
+     y="352.79388"
+     id="tspan4845-2-3-0">泄漏情况</tspan></text>
+<text
+   x="2.8461883"
+   y="378.83398"
+   transform="scale(0.8409986,1.1890626)"
+   id="text4843-2-4-4-6"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="2.8461883"
+     y="378.83398"
+     id="tspan4845-2-3-0-1">氢气车</tspan></text>
+<text
+   x="3.545454"
+   y="411.95645"
+   transform="scale(0.84099862,1.1890626)"
+   id="text4843-2-4-4-6-8"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="3.545454"
+     y="411.95645"
+     id="tspan4845-2-3-0-1-9">压缩机</tspan></text>
+<text
+   x="3.3651276"
+   y="440.89465"
+   transform="scale(0.84099862,1.1890626)"
+   id="text4843-2-4-4-6-8-8"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="3.3651276"
+     y="440.89465"
+     id="tspan4845-2-3-0-1-9-4">储氢罐</tspan></text>
+<text
+   x="2.6197076"
+   y="474.62128"
+   transform="scale(0.84099862,1.1890626)"
+   id="text4843-2-4-4-6-8-8-1"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="2.6197076"
+     y="474.62128"
+     id="tspan4845-2-3-0-1-9-4-4">加氢机</tspan></text>
+<text
+   x="216.00926"
+   y="358.76816"
+   transform="scale(0.87197757,1.1468185)"
+   id="text4843-2-4-4-3"
+   xml:space="preserve"
+   style="font-size:27.70496368px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="216.00926"
+     y="358.76816"
+     id="tspan4845-2-3-0-9">加氢量</tspan></text>
+<text
+   x="224.88588"
+   y="385.11938"
+   transform="scale(0.84099862,1.1890626)"
+   id="text4843-2-4-4-6-88"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="224.88588"
+     y="385.11938"
+     id="tspan4845-2-3-0-1-0">A总量</tspan></text>
+<text
+   x="224.48761"
+   y="427.61139"
+   transform="scale(0.84099862,1.1890626)"
+   id="text4843-2-4-4-6-88-8"
+   xml:space="preserve"
+   style="font-size:23.08176231px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="224.48761"
+     y="427.61139"
+     id="tspan4845-2-3-0-1-0-3">B总量</tspan></text>
+<text
+   x="287.40463"
+   y="447.76932"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-83"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="287.40463"
+     y="447.76932"
+     id="tspan4845-2-5-6-4-6-7">{}</tspan></text>
+<text
+   x="285.10495"
+   y="497.79669"
+   transform="scale(0.98698824,1.0131833)"
+   id="text4843-2-6-8-8-9-10"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="285.10495"
+     y="497.79669"
+     id="tspan4845-2-5-6-4-6-73">{}</tspan></text>
+<text
+   x="1107.03"
+   y="468.92563"
+   transform="scale(0.98698824,1.0131833)"
+   id="PRISE_A"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1107.03"
+     y="468.92563"
+     id="tspan4845-2-5-6-4-6-7-9">{}</tspan></text>
+<text
+   x="1105.6829"
+   y="506.98294"
+   transform="scale(0.98698824,1.0131833)"
+   id="MH2_A"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1105.6829"
+     y="506.98294"
+     id="tspan4845-2-5-6-4-6-7-5">{}</tspan></text>
+<text
+   x="1108.3771"
+   y="567.34967"
+   transform="scale(0.98698824,1.0131833)"
+   id="PRISE_B"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1108.3771"
+     y="567.34967"
+     id="tspan4845-2-5-6-4-6-7-0">{}</tspan></text>
+<text
+   x="1108.3771"
+   y="609.34393"
+   transform="scale(0.98698824,1.0131833)"
+   id="MH2_B"
+   xml:space="preserve"
+   style="font-size:17.12380409px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
+     x="1108.3771"
+     y="609.34393"
+     id="tspan4845-2-5-6-4-6-7-96">{}</tspan></text>
+</svg>
+ </div>
     </div>
 </div>
 <div class="footer">
@@ -262,6 +4986,10 @@
 <script src="../media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 <script src="../media/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="../media/js/app.js" type="text/javascript"></script>
+<script src="../media/js/vue.min.js" type="text/javascript"></script>
+<script src="../media/js/vue-resource.min.js" type="text/javascript"></script>
+<script src="../media/js/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="../media/js/initMenu.js" type="text/javascript"></script>
 <script>
     function showData() {
         $.ajax({
@@ -270,33 +4998,24 @@
             'success': function (data) {
             	var dataJson=$.parseJSON(data);
                 var dataArray = dataJson.data;
-                var canvas = document.getElementById("mycanvas");
-                var img = document.getElementById("station_img");
-                canvas.width = img.width;
-                canvas.height = img.height;
-                var context = canvas.getContext("2d");
-                context.scale(0.71, 0.71);
-                context.drawImage(img, 0, 0);
-                context.font = "23px Microsoft YaHei";
-                //context.fillText(dataArray["Pout_H2_1_1"] + "%", 300, 40);//
-               // context.fillText(dataArray["ATD_101"] + "%", 300, 100);
-                context.fillText(dataArray["Pin_H2_1_1"] + " Bar", 320, 40);
-                context.fillText(dataArray["Pin_H2_2_1"] + " Bar", 315, 350);
-                context.fillText(dataArray["Pout_H2_1_1"] + " Bar", 590, 90);//
-                context.fillText(dataArray["Tout_H2_1_1"] + " ℃", 680, 90);//
-                context.fillText(dataArray["P_H_tank_2_1"] + " Bar", 800, 90);//
-                context.fillText(dataArray["P_L_TANK_2_1"] + " Bar", 820, 300);//
-                context.fillText(dataArray["Tout_H2_2_1"] + " ℃", 690, 300);//
-                context.fillText(dataArray["Pout_H2_2_1"] + " Bar", 590, 300);//
-              //  context.fillText(dataArray["ATD_105"] + "% ", 710, 510);
-                //context.fillText(dataArray["ATD_103"] + "% ", 1090, 90);
-                context.fillText(dataArray["AT_A"] + "℃", 690, 470);//
-                context.fillText(dataArray["Plinest_A"] + "MPa", 600, 470);//
-                context.fillText(dataArray["Llinest_A"] + "KG/MIN ", 770, 470);//
-                context.fillText(dataArray["AT_B"] + "℃", 690, 680);//
-                context.fillText(dataArray["Plinest_B"] + "MPa", 580, 680);//
-                context.fillText(dataArray["Llinest_B"] + "KG/MIN ", 770, 680);//
-                $("#station_img").css('display', 'none');
+                document.getElementById("Pin_H2_1_1").textContent= dataArray["Pin_H2_1_1"]+ " Bar";
+                document.getElementById("Pin_H2_2_1").textContent= dataArray["Pin_H2_2_1"]+ " Bar";
+                document.getElementById("Pout_H2_1_1").textContent= dataArray["Pout_H2_1_1"]+ " Bar";
+                document.getElementById("Tout_H2_1_1").textContent= dataArray["Tout_H2_1_1"]+ " ℃";
+                document.getElementById("P_H_tank_2_1").textContent= dataArray["P_H_tank_2_1"]+ " Bar";
+                document.getElementById("P_L_TANK_2_1").textContent= dataArray["P_L_TANK_2_1"]+ " Bar";
+                document.getElementById("Tout_H2_2_1").textContent= dataArray["Tout_H2_2_1"]+ " ℃";
+                document.getElementById("Pout_H2_2_1").textContent= dataArray["Pout_H2_2_1"]+ " Bar";
+                document.getElementById("AT_A").textContent= dataArray["AT_A"]+ " ℃";
+                document.getElementById("Plinest_A").textContent= dataArray["Plinest_A"]+ " MPa";
+                document.getElementById("Llinest_A").textContent= dataArray["Llinest_A"]+ " KG/MIN";
+                document.getElementById("AT_B").textContent= dataArray["AT_B"]+ " ℃";
+                document.getElementById("Plinest_B").textContent= dataArray["Plinest_B"]+ " MPa";
+                document.getElementById("Llinest_B").textContent= dataArray["Llinest_B"]+ " KG/MIN";
+                document.getElementById("PRISE_A").textContent= dataArray["PRISE_A"]+ " 元";
+                document.getElementById("PRISE_B").textContent= dataArray["PRISE_B"]+ " 元";
+                document.getElementById("MH2_A").textContent= dataArray["MH2_A"]+ " KG";
+                document.getElementById("MH2_B").textContent= dataArray["MH2_B"]+ " KG";
             },
             'error': function (data) {
 

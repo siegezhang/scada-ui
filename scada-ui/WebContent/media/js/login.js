@@ -47,9 +47,9 @@ var Login = function () {
 	            },
 
 	            submitHandler: function (form) {
-	            	alert(111);
 	            	var name=$("#username");
 	            	var password=$("#username");
+	            	$.cookie('username', name.val()); 
 	                //window.location.href = "index.jsp";
 					$.ajax({
 						url:'/LoginServlet',
