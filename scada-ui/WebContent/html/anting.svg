@@ -30,29 +30,13 @@
     <link href="../media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
     <link href="../media/css/jqvmap.css" rel="stylesheet" type="text/css" ../media="screen"/>
     <link href="../media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" ../media="screen"/>
-    <!-- END PAGE LEVEL STYLES -->
     <link rel="shortcut icon" href="../media/image/favicon.ico"/>
-   <script src="https://unpkg.com/vue"></script>    
 </head>
-<!-- END HEAD -->
-<!-- BEGIN BODY -->
 <body class="page-header-fixed" topmargin="0">
-<!-- BEGIN HEADER -->
 <div class="header navbar navbar-inverse navbar-fixed-top">
     <!-- BEGIN TOP NAVIGATION BAR -->
     <div class="navbar-inner">
         <div class="container-fluid">
-            <!-- BEGIN LOGO -->
-            <a class="brand" href="index.jsp">
-                <img src="../media/image/logo.png" alt="logo"/>
-            </a>
-            <!-- END LOGO -->
-            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-            <a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-                <img src="../media/image/menu-toggler.png" alt=""/>
-            </a>
-            <!-- END RESPONSIVE MENU TOGGLER -->
-            <!-- BEGIN TOP NAVIGATION MENU -->
             <ul class="nav pull-right">
                 <li class="dropdown user">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -66,159 +50,24 @@
                         <li><a href="login.html"><i class="icon-key"></i> 退出登录</a></li>
                     </ul>
                 </li>
-                <!-- END USER LOGIN DROPDOWN -->
             </ul>
-            <!-- END TOP NAVIGATION MENU -->
         </div>
     </div>
-    <!-- END TOP NAVIGATION BAR -->
 </div>
-<div class="page-container">
+<div class="page-container" id="app">
     <div class="page-sidebar nav-collapse collapse">
         <ul class="page-sidebar-menu">
-            <li class="">
-                <a href="javascript:;">
-                    <i class="icon-cogs"></i>
-                    <span class="title">安亭站</span>
-                    <span class="arrow "></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="anting.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_anting.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                    <!--<li>
-                        <a href="amount_data_anting">
-                            加氢量统计</a>
-                    </li>-->
-                </ul>
-            </li>
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">大连站1</span>
-                    <span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="dalian1.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_dalian1.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                   <!-- <li>
-                        <a href="amount_data_dalian1">
-                            加氢量统计</a>
-                    </li>-->
-                </ul>
-            </li>
-           <!-- <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">大连站2</span>
-                    <span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="dalian2">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_dalian2.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                    <li>
-                        <a href="amount_data_dalian2">
-                            加氢量统计</a>
-                    </li>
-                </ul>
-            </li>-->
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">云浮站</span>
-                    <span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="yunfu.html">
-                            数据监控</a>
-                    </li>
-                    <li>
-                        <a href="report_yunfu.html" target="_blank">
-                            报表查看</a>
-                    </li>
-                  <!--  <li>
-                        <a href="amount_data_yunfu">
-                            加氢量统计</a>
-                    </li> -->
-                </ul>
-            </li>
-            <!--
-            <li class="start">
-                <a href="index.jsp">
-                    <i class="icon-home"></i>
-                    <span class="title">安亭站</span>
-                    <!--<span class=""></span>
-                </a>
-            </li>
-            <li class="last">
-                <a href="charts.html">
-                    <i class="icon-bar-chart"></i>
-                    <span class="title">图表信息</span>
-                </a>
-            </li>-->
+        	<app-nav v-for="item in menulist" v-bind:menu="item" v-bind:key="item.id"></app-nav>
         </ul>
-        <!-- END SIDEBAR MENU -->
     </div>
-    <!-- END SIDEBAR -->
-    <!-- BEGIN PAGE -->
+</div>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span12">
-                    <div class="color-panel hidden-phone">
-                        <div class="color-mode-icons icon-color"></div>
-                        <div class="color-mode-icons icon-color-close"></div>
-                        <div class="color-mode">
-                            <p>主题颜色</p>
-                            <ul class="inline">
-                                <li class="color-black current color-default" data-style="default"></li>
-                                <li class="color-blue" data-style="blue"></li>
-                                <li class="color-brown" data-style="brown"></li>
-                                <li class="color-purple" data-style="purple"></li>
-                                <li class="color-grey" data-style="grey"></li>
-                                <li class="color-white color-light" data-style="light"></li>
-                            </ul>
-                            <label>
-                                <span>布局</span>
-                                <select class="layout-option m-wrap small">
-                                    <option value="fluid" selected>流式布局</option>
-                                    <option value="boxed">盒式布局</option>
-                                </select>
-                            </label>
-                            <label>
-                                <span>底部</span>
-                                <select class="footer-option m-wrap small">
-                                    <option value="fixed">固定</option>
-                                    <option value="default" selected>默认</option>
-                                </select>
-                            </label>
-                        </div>
-                    </div>
-                    <h3 class="page-title">
-                        安亭站
-                        <small>站点示意图</small>
-                    </h3>
+                    <h3 class="page-title"> 安亭站<small>站点示意图</small></h3>
                     <ul class="breadcrumb">
-                        <li>
-                            <i class="icon-home"></i>
+                        <li><i class="icon-home"></i>
                             <a href="anting.html">Home</a>
                             <i class="icon-angle-right"></i>
                         </li>
@@ -226,27 +75,8 @@
                     </ul>
                 </div>
             </div>
-            <div id="dashboard">
-                <div class="row-fluid">
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                        <div class="dashboard-stat green"></div>
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6  fix-offset" data-desktop="span3">
-                    </div>
-                    <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
-                        <div class="dashboard-stat yellow"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-           <!--  <div class="row-fluid">
-                <img src="../media/image/station.png" id="station_img">
-                <canvas id="mycanvas">Your browser does not support the HTML5 canvas tag.</canvas>
-            </div> -->
-             <div  style="background:#c3bdbd;width:1547.730px;height:884.297px" id="app"> 
-
+        </div>
+<div  style="background:#c3bdbd;width:1547.730px;height:884.297px"> 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1099,7 +929,7 @@
        id="path7259"
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;overflow:visible" />
     <path
-       d="m 477.56404,287.31931 206.40536,0 a 3.3837654,3.4945606 0 0 0 3.3901,-3.48883 l 0,-267.505598"
+       d="m 477.56404,287.31931 196.66583,0 a 3.2240977,3.4945606 0 0 0 3.23014,-3.48883 l 0,-267.505598"
        id="path7261"
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;overflow:visible" />
     <g
@@ -1336,7 +1166,7 @@
          style="stroke:#000000;stroke-width:0.77281094;stroke-linecap:round;stroke-linejoin:round" />
     </g>
     <g
-       transform="matrix(1.1937154,0,0,1.2328014,905.6148,-769.94597)"
+       transform="matrix(1.2782508,0,0,1.2328014,905.02951,-769.94597)"
        id="shape344-400"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -1347,20 +1177,20 @@
         <path
            d="m 0,850.39 -86.46,0"
            id="path7376"
-           style="fill:none;stroke:#000000;stroke-width:1.03041458;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+           style="fill:none;stroke:#000000;stroke-width:0.99575931;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
         <path
            d="m -92.13,850.39 -66.84,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-207.21"
            id="path7378"
-           style="fill:none;stroke:#000000;stroke-width:1.03041458;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
+           style="fill:none;stroke:#000000;stroke-width:0.99575931;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15;filter:url(#filter_2.6666667461395)" />
       </g>
       <path
          d="m 0,850.39 -86.46,0"
          id="path7380"
-         style="stroke:#7f7f7f;stroke-width:8.24331665;stroke-linecap:round;stroke-linejoin:round" />
+         style="stroke:#7f7f7f;stroke-width:7.96607447;stroke-linecap:round;stroke-linejoin:round" />
       <path
          d="m -92.13,850.39 -66.84,0 a 2.83465,2.83465 0 0 1 -2.84,-2.83 l 0,-207.21"
          id="path7382"
-         style="stroke:#7f7f7f;stroke-width:8.24331665;stroke-linecap:round;stroke-linejoin:round" />
+         style="stroke:#7f7f7f;stroke-width:7.96607447;stroke-linecap:round;stroke-linejoin:round" />
     </g>
     <g
        transform="matrix(1.1937154,0,0,1.2244648,496.17047,-758.26407)"
@@ -1406,40 +1236,6 @@
          d="M -6.84,850.39 -7.33,697.63"
          id="path7409"
          style="stroke:#7f7f7f;stroke-width:8.24331665;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,195.01996,-1105.4231)"
-       id="shape426-440"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,215.47428,-1105.4231)"
-       id="shape427-442"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
     </g>
     <g
        transform="matrix(0,1.1839716,-1.1937154,0,1004.4653,125.66735)"
@@ -1682,7 +1478,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0,1.2944825,-1.3242469,0,2103.9234,448.17114)"
+       transform="matrix(0,1.2944825,-1.3242469,0,1991.9234,450.17114)"
        id="group469-494"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -1926,7 +1722,7 @@
       </g>
     </g>
     <g
-       transform="matrix(-1.1936888,-0.00821922,0.00795863,-1.232774,771.9187,1037.2731)"
+       transform="matrix(-1.1936888,-0.00769172,0.00795863,-1.1536554,784.64662,968.91763)"
        id="group499-559"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -1944,15 +1740,15 @@
         <path
            d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0"
            id="path7685"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.25563887;stroke-linecap:round;stroke-linejoin:round" />
         <path
            d="M 5.91,844.48 34.45,815.94"
            id="path7687"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.25563887;stroke-linecap:round;stroke-linejoin:round" />
         <path
            d="M 34.45,844.48 5.91,815.94"
            id="path7689"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.25563887;stroke-linecap:round;stroke-linejoin:round" />
       </g>
       <g
          transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,679.157,1364.71)"
@@ -1967,7 +1763,7 @@
         <path
            d="m 40.36,830.21 2.16,0"
            id="path7697"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.25563887;stroke-linecap:round;stroke-linejoin:round" />
       </g>
       <g
          id="shape499-570">
@@ -1989,7 +1785,7 @@
       </g>
     </g>
     <g
-       transform="matrix(-1.1937154,0,0,-1.2328014,778.7229,1301.9063)"
+       transform="matrix(-1.0227706,0,0,-1.0350616,792.64605,1136.0398)"
        id="group504-573"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -2007,15 +1803,15 @@
         <path
            d="m 0,830.21 a 20.1822,20.1822 0 0 1 40.36,0 20.1822,20.1822 0 1 1 -40.36,0"
            id="path7714"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.29157344;stroke-linecap:round;stroke-linejoin:round" />
         <path
            d="M 5.91,844.48 34.45,815.94"
            id="path7716"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.29157344;stroke-linecap:round;stroke-linejoin:round" />
         <path
            d="M 34.45,844.48 5.91,815.94"
            id="path7718"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.29157344;stroke-linecap:round;stroke-linejoin:round" />
       </g>
       <g
          transform="matrix(-0.64278761,0.76604444,-0.76604444,-0.64278761,679.157,1364.71)"
@@ -2030,7 +1826,7 @@
         <path
            d="m 40.36,830.21 2.16,0"
            id="path7726"
-           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+           style="stroke:#000000;stroke-width:0.29157344;stroke-linecap:round;stroke-linejoin:round" />
       </g>
       <g
          id="shape504-584">
@@ -2052,7 +1848,7 @@
       </g>
     </g>
     <g
-       transform="matrix(-1.3952751,0,0,-1.497285,923.274,1717.6537)"
+       transform="matrix(-1.3952751,0,0,-1.497285,1036.274,1724.6537)"
        id="group509-587"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -2115,40 +1911,6 @@
       </g>
     </g>
     <g
-       transform="matrix(1.1151798,0,0,1.2328014,195.01055,-790.91347)"
-       id="shape531-628"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7820">工作表.531</title>
-      <path
-         d="m 0,828.85 0,21.54 59.81,-21.54 0,21.54 L 0,828.85 z"
-         id="path7822"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.25585929;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,217.15263,-790.91347)"
-       id="shape532-630"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7825">工作表.532</title>
-      <path
-         d="m 5.38,850.39 5.98,-4.3 5.99,4.3 0,-21.54 -11.97,0 0,21.54 z"
-         id="path7827"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,815.49 22.73,0"
-         id="path7829"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 11.36,828.85 0,-13.36"
-         id="path7831"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 5.38,850.39 5.98,-4.3 5.99,4.3 0,-21.54 -11.97,0 0,21.54"
-         id="path7833"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
        transform="matrix(1.1937154,0,0,1.2328014,957.3862,-1066.7502)"
        id="shape548-639"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
@@ -2194,74 +1956,6 @@
        id="path7871"
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;overflow:visible" />
     <g
-       transform="matrix(0,-1.2328014,1.1937154,0,-204.09519,215.51846)"
-       id="shape539-672"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7878">工作表.539</title>
-      <path
-         d="m 0,830.27 0,20.12 51.02,-20.12 0,20.12 L 0,830.27 z"
-         id="path7880"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0,-1.2328014,1.1937154,0,-204.09519,196.01923)"
-       id="shape540-674"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7883">工作表.540</title>
-      <path
-         d="m 4.59,850.39 5.1,-4.02 5.11,4.02 0,-20.12 -10.21,0 0,20.12 z"
-         id="path7885"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,817.79 19.39,0"
-         id="path7887"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 9.69,830.27 0,-12.48"
-         id="path7889"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.59,850.39 5.1,-4.02 5.11,4.02 0,-20.12 -10.21,0 0,20.12"
-         id="path7891"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,669.1398,-511.13043)"
-       id="shape565-679"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7894">工作表.565</title>
-      <path
-         d="m 0,838.7 0,11.69 31.56,-11.69 0,11.69 L 0,838.7 z"
-         id="path7896"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,680.8144,-511.13043)"
-       id="shape566-681"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7899">工作表.566</title>
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69 z"
-         id="path7901"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,831.45 11.99,0"
-         id="path7903"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 6,838.7 0,-7.25"
-         id="path7905"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69"
-         id="path7907"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
        transform="matrix(1.1937154,0,0,1.2328014,845.0457,-430.09964)"
        id="shadow570-687"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;visibility:visible;overflow:visible">
@@ -2288,108 +1982,6 @@
        id="path7930"
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:square;stroke-miterlimit:3;overflow:visible" />
     <g
-       transform="matrix(1.1937154,0,0,1.2328014,791.806,-514.40598)"
-       id="shape576-710"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7937">工作表.576</title>
-      <path
-         d="m 0,838.7 0,11.69 31.56,-11.69 0,11.69 L 0,838.7 z"
-         id="path7939"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,803.4806,-514.40598)"
-       id="shape577-712"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7942">工作表.577</title>
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69 z"
-         id="path7944"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,831.45 11.99,0"
-         id="path7946"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 6,838.7 0,-7.25"
-         id="path7948"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69"
-         id="path7950"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,791.806,-621.90747)"
-       id="shape584-724"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7969">工作表.584</title>
-      <path
-         d="m 0,838.7 0,11.69 31.56,-11.69 0,11.69 L 0,838.7 z"
-         id="path7971"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,803.4806,-621.90747)"
-       id="shape585-726"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7974">工作表.585</title>
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69 z"
-         id="path7976"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,831.45 11.99,0"
-         id="path7978"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 6,838.7 0,-7.25"
-         id="path7980"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69"
-         id="path7982"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0,-1.2328014,1.1937154,0,-98.96827,242.55626)"
-       id="shape535-738"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title8001">工作表.535</title>
-      <path
-         d="m 0,830.27 0,20.12 45.32,-20.12 0,20.12 L 0,830.27 z"
-         id="path8003"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0,-1.2328014,1.1937154,0,-98.96827,225.23662)"
-       id="shape536-740"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title8006">工作表.536</title>
-      <path
-         d="m 4.08,850.39 4.53,-4.02 4.53,4.02 0,-20.12 -9.06,0 0,20.12 z"
-         id="path8008"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,817.79 17.22,0"
-         id="path8010"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 8.61,830.27 0,-12.48"
-         id="path8012"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.08,850.39 4.53,-4.02 4.53,4.02 0,-20.12 -9.06,0 0,20.12"
-         id="path8014"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
        transform="matrix(1.1937154,0,0,1.2328014,1109,-910.42617)"
        id="shadow834-746"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;visibility:visible;overflow:visible">
@@ -2402,40 +1994,6 @@
        d="m 1109,137.9358 62.2403,0 a 3.3837654,3.4945606 0 0 0 3.3783,-3.48883 l 0,-343.52012"
        id="path8022"
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:square;stroke-miterlimit:3;overflow:visible" />
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,668.7459,-622.45977)"
-       id="shape836-754"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title8025">工作表.836</title>
-      <path
-         d="m 0,838.7 0,11.69 31.56,-11.69 0,11.69 L 0,838.7 z"
-         id="path8027"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,680.4204,-622.45977)"
-       id="shape837-756"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title8030">工作表.837</title>
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69 z"
-         id="path8032"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,831.45 11.99,0"
-         id="path8034"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 6,838.7 0,-7.25"
-         id="path8036"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69"
-         id="path8038"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
     <g
        transform="matrix(1.1937154,0,0,1.2328014,492.0044,-631.41367)"
        id="shape839-761"
@@ -2545,7 +2103,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.85584098,0,0,1.0436753,1144.2201,-307.13972)"
+       transform="matrix(0.85584098,0,0,1.0436753,1134.3206,-343.90927)"
        id="shape841-783"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -2834,14 +2392,14 @@
          y="381.77707"
          id="tspan14955">泄漏</tspan></text>
     <text
-       x="1042.9514"
-       y="623.53241"
+       x="1034.0266"
+       y="584.31586"
        transform="scale(1.1092117,0.90154115)"
        id="text14957"
        xml:space="preserve"
        style="font-size:19.45644569px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
-         x="1042.9514"
-         y="623.53241"
+         x="1034.0266"
+         y="584.31586"
          id="tspan14959">泄漏</tspan></text>
     <text
        x="553.34503"
@@ -2864,27 +2422,27 @@
          y="-24.596218"
          id="tspan14967">温度</tspan></text>
     <text
-       x="735.76428"
-       y="-25.62171"
+       x="747.18097"
+       y="-22.818798"
        transform="scale(0.99097902,1.0091031)"
        id="text14961-8"
        xml:space="preserve"
        style="font-size:24.12174797px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
-         x="735.76428"
-         y="-25.62171"
+         x="747.18097"
+         y="-22.818798"
          id="tspan14963-6">压力</tspan></text>
     <text
-       x="881.82007"
-       y="550.09656"
+       x="997.86688"
+       y="540.18683"
        transform="scale(0.99097902,1.0091031)"
        id="text14961-6"
        xml:space="preserve"
        style="font-size:24.12174797px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
-         x="881.82007"
-         y="550.09656"
+         x="997.86688"
+         y="540.18683"
          id="tspan14963-2">压力</tspan></text>
     <g
-       transform="matrix(-1.3952751,0,0,-1.497285,924.9244,1864.3311)"
+       transform="matrix(-1.3952751,0,0,-1.497285,1042.9244,1867.3311)"
        id="group509-587-3"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -2945,17 +2503,6 @@
              id="path10603-8" />
         </g>
       </g>
-    </g>
-    <g
-       transform="matrix(0,1.2944825,-1.3242469,0,2110.7019,593.06315)"
-       id="shape470-495-5"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7542-2">工作表.470</title>
-      <path
-         d="m 0,827.9 a 22.495,22.495 0 0 1 44.99,0 22.495,22.495 0 1 1 -44.99,0 z"
-         id="path7544-7"
-         style="fill:#ddd6e5;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
     </g>
     <g
        transform="matrix(0,1.2944825,-1.3242469,0,2136.0219,601.79869)"
@@ -3050,24 +2597,24 @@
       </g>
     </g>
     <text
-       x="1011.9138"
-       y="543.98712"
+       x="898.30225"
+       y="534.21698"
        transform="scale(0.97701331,1.0235275)"
        id="text14965-3"
        xml:space="preserve"
        style="font-size:23.90636826px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
-         x="1011.9138"
-         y="543.98712"
+         x="898.30225"
+         y="534.21698"
          id="tspan14967-5">温度</tspan></text>
     <text
-       x="1111.1853"
-       y="545.49268"
+       x="1109.1382"
+       y="533.76849"
        transform="scale(0.97701331,1.0235275)"
        id="text14965-3-5"
        xml:space="preserve"
        style="font-size:23.90636826px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Sans"><tspan
-         x="1111.1853"
-         y="545.49268"
+         x="1109.1382"
+         y="533.76849"
          id="tspan14967-5-1">流量</tspan></text>
     <text
        x="188.41093"
@@ -3079,40 +2626,6 @@
          x="188.41093"
          y="-106.21542"
          id="tspan14963-2-5">压力</tspan></text>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,611.65693,-417.22377)"
-       id="shape565-679-2"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7894-1">工作表.565</title>
-      <path
-         d="m 0,838.7 0,11.69 31.56,-11.69 0,11.69 L 0,838.7 z"
-         id="path7896-4"
-         style="fill:#b7dde8;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(1.1937154,0,0,1.2328014,624.29242,-417.19295)"
-       id="shape566-681-9"
-       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7899-9">工作表.566</title>
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69 z"
-         id="path7901-0"
-         style="fill:#b7dde8" />
-      <path
-         d="m 0,831.45 11.99,0"
-         id="path7903-3"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 6,838.7 0,-7.25"
-         id="path7905-0"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 2.84,850.39 3.16,-2.33 3.15,2.33 0,-11.69 -6.31,0 0,11.69"
-         id="path7907-3"
-         style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
     <text
        x="533.76532"
        y="344.28583"
@@ -3249,69 +2762,69 @@
          id="tspan12101-8-4-5-2-4"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="898.05963"
-       y="415.51862"
+       x="890.94592"
+       y="424.37476"
        transform="scale(0.98401972,1.0162398)"
        id="AI014"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="898.05963"
-         y="415.51862"
+         x="890.94592"
+         y="424.37476"
          id="tspan12101-8-4-5-2-3"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="1010.1596"
-       y="415.51859"
+       x="1009.1433"
+       y="424.37476"
        transform="scale(0.98401972,1.0162398)"
        id="AI016"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="1010.1596"
-         y="415.51859"
+         x="1009.1433"
+         y="424.37476"
          id="tspan12101-8-4-5-2-1"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="1105.0135"
-       y="412.73538"
+       x="1100.9486"
+       y="426.51166"
        transform="scale(0.98401972,1.0162398)"
        id="AI011"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="1105.0135"
-         y="412.73538"
+         x="1100.9486"
+         y="426.51166"
          id="tspan12101-8-4-5-2-8"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="896.02716"
-       y="574.33148"
+       x="889.92981"
+       y="568.42731"
        transform="scale(0.98401972,1.0162398)"
        id="AI013"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="896.02716"
-         y="574.33148"
+         x="889.92981"
+         y="568.42731"
          id="tspan12101-8-4-5-2-7"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="1019.799"
-       y="576.13068"
+       x="994.42297"
+       y="568.66608"
        transform="scale(0.98401972,1.0162398)"
        id="AI015"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="1019.799"
-         y="576.13068"
+         x="994.42297"
+         y="568.66608"
          id="tspan12101-8-4-5-2-89"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="1117.9482"
-       y="576.13068"
+       x="1107.7859"
+       y="569.24255"
        transform="scale(0.98401972,1.0162398)"
        id="AI05"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="1117.9482"
-         y="576.13068"
+         x="1107.7859"
+         y="569.24255"
          id="tspan12101-8-4-5-2-9"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
@@ -3392,7 +2905,6 @@
            y="638.30664"
            id="rect4123" /></flowRegion><flowPara
          id="flowPara4125">泄漏q</flowPara></flowRoot>    <flowRoot
-       transform="translate(-337.8728,-229.79112)"
        id="flowRoot4231"
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
@@ -3402,7 +2914,7 @@
            x="440"
            y="710.30664"
            id="rect4235" /></flowRegion><flowPara
-         id="flowPara4237"></flowPara></flowRoot>    <text
+         id="flowPara4237" /></flowRoot>    <text
        x="-168.7686"
        y="376.56747"
        transform="scale(0.98401972,1.0162398)"
@@ -3588,8 +3100,481 @@
          x="78.623268"
          y="169.2785"
          id="tspan14967-6">温度</tspan></text>
+    <g
+       transform="matrix(0,1.2944825,-1.3242469,0,1995.3531,590.52016)"
+       id="group469-494-1"
+       style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7537-7">温度计.469</title>
+      <desc
+         id="desc7539-4">温度</desc>
+      <g
+         id="shape470-495-0">
+        <title
+           id="title7542-9">工作表.470</title>
+        <path
+           d="m 0,827.9 a 22.495,22.495 0 0 1 44.99,0 22.495,22.495 0 1 1 -44.99,0 z"
+           id="path7544-4"
+           style="fill:#ddd6e5;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+      <g
+         transform="translate(6.74829,-19.1201)"
+         id="shape471-497-8">
+        <title
+           id="title7547-8">工作表.471</title>
+        <path
+           d="m 31.49,847.02 a 3.375,3.375 -180 1 0 -6.75,0 3.375,3.375 -180 0 0 6.75,0 z"
+           id="path7549-2"
+           style="fill:#000000" />
+        <path
+           d="m 31.49,847.02 a 3.375,3.375 -180 1 0 -6.75,0 3.375,3.375 -180 0 0 6.75,0"
+           id="path7551-4"
+           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:butt" />
+        <path
+           d="m 0,847.02 31.49,0"
+           id="path7553-5"
+           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:butt" />
+      </g>
+      <g
+         id="shape472-501-5">
+        <title
+           id="title7556-1">工作表.472</title>
+        <path
+           d="m 44.99,827.9 6.03,0"
+           id="path7558-7"
+           style="stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+      <g
+         id="shape469-504-1">
+        <path
+           d="m -856.38,-32.612 47.9998,0 0,31.2080007 -47.9998,0 z"
+           transform="matrix(0,-1,1,0,0,0)"
+           id="rect7561-1"
+           style="fill:#ffffff;fill-opacity:0;stroke:none" />
+        <g
+           transform="matrix(0,-1,1,0,0,0)"
+           id="text7563-5">
+          <path
+             d="m -845.83313,-12.819375 c -0.0313,0.562503 -0.0469,1.765627 -0.0469,3.609375 0.34373,0 0.67186,-0.015625 0.98437,-0.046875 l 0,0.84375 c -0.50001,-0.031251 -1.00001,-0.046876 -1.5,-0.046875 l -5.71875,0 c -0.5625,-8e-7 -1.10938,0.015624 -1.64062,0.046875 l 0,-0.84375 c 0.40624,0.03125 0.78124,0.046875 1.125,0.046875 -10e-6,-1.781248 -0.0156,-2.984372 -0.0469,-3.609375 l 6.84375,0 z m -0.5625,-1.125 -5.76562,0 c 0.0312,-0.531245 0.0469,-1.249994 0.0469,-2.15625 0,-0.906242 -0.0156,-1.687491 -0.0469,-2.34375 l 5.76562,0 z m -0.84375,-0.796875 0,-1.03125 -4.03125,0 0,1.03125 z m -6.23437,2.203125 c -0.21876,0.593753 -0.46094,1.328127 -0.72657,2.203125 -0.26562,0.8750002 -0.49219,1.5624995 -0.67968,2.0625 -0.31251,-0.2812507 -0.64063,-0.4843755 -0.98438,-0.609375 0.3125,-0.5312498 0.63281,-1.234374 0.96094,-2.109375 0.32812,-0.874997 0.52343,-1.578122 0.58594,-2.109375 0.24999,0.250004 0.53124,0.437503 0.84375,0.5625 z m 6.23437,-4.03125 0,-0.984375 -4.03125,0 0,0.984375 z m 0.51563,7.359375 0,-2.8125 -1.17188,0 0,2.8125 z m -2.01563,0 0,-2.8125 -1.125,0 0,2.8125 z m -1.875,0 0,-2.8125 -1.125,0 0,2.8125 z m -4.125,-9.46875 c 0.75,0.562509 1.34375,1.015633 1.78125,1.359375 -0.1875,0.281258 -0.375,0.531258 -0.5625,0.75 -0.28125,-0.343742 -0.875,-0.828117 -1.78125,-1.453125 0.21875,-0.218741 0.40625,-0.437491 0.5625,-0.65625 z m -0.5625,2.671875 c 0.53125,0.281256 1.14062,0.734381 1.82813,1.359375 -0.25001,0.187505 -0.45313,0.406255 -0.60938,0.65625 -0.3125,-0.343745 -0.875,-0.812494 -1.6875,-1.40625 0.125,-0.124994 0.28125,-0.328119 0.46875,-0.609375 z"
+             id="path10559-2" />
+          <path
+             d="m -841.09875,-12.350625 c 0.87499,0.03125 1.57812,0.04688 2.10937,0.04687 l 4.35938,0 c -0.28126,0.500003 -0.62501,1.000002 -1.03125,1.5 -0.40626,0.500001 -0.79689,0.9062506 -1.17188,1.21875 0.40624,0.1875001 0.98437,0.34375 1.73438,0.46875 0.74999,0.1249997 1.46873,0.1874997 2.15625,0.1875 -0.18752,0.1874995 -0.35939,0.4999992 -0.51563,0.9375 -0.90626,-0.1250011 -1.70313,-0.2734385 -2.39062,-0.4453125 -0.68751,-0.1718756 -1.26564,-0.3671879 -1.73438,-0.5859375 -0.65626,0.2812495 -1.30469,0.5078118 -1.94531,0.6796875 -0.64063,0.1718739 -1.30469,0.3046863 -1.99219,0.3984375 -0.0937,-0.2500011 -0.28125,-0.5156258 -0.5625,-0.796875 0.5625,-5e-7 1.20312,-0.078125 1.92188,-0.234375 0.71874,-0.1562501 1.34374,-0.3593749 1.875,-0.609375 -0.53126,-0.437499 -1.06251,-1.109374 -1.59375,-2.015625 l -1.21875,0.04687 z m 2.29687,-6.375 c 0.34374,-0.09374 0.65624,-0.203115 0.9375,-0.328125 0.18749,0.343759 0.37499,0.796884 0.5625,1.359375 l 1.73438,0 c 0.34374,8e-6 0.96874,-0.01562 1.875,-0.04687 l 0,0.84375 c -0.87501,-0.03124 -1.53126,-0.04687 -1.96875,-0.04687 l -6.14063,0 c 0,1.406256 -0.0156,2.539068 -0.0469,3.398437 -0.0313,0.859379 -0.11719,1.710941 -0.25782,2.554688 -0.14062,0.843751 -0.44531,1.765625 -0.91406,2.765625 -0.28125,-0.1875008 -0.57813,-0.3281257 -0.89062,-0.421875 0.49999,-0.8749997 0.82031,-1.734374 0.96093,-2.578125 0.14063,-0.843747 0.21875,-1.921871 0.23438,-3.234375 0.0156,-1.312493 0.008,-2.390617 -0.0234,-3.234375 l 4.35938,0 c -0.12501,-0.406241 -0.26564,-0.749991 -0.42188,-1.03125 z m -0.9375,3.328125 c 0,-0.499993 -0.0156,-0.890618 -0.0469,-1.171875 l 0.98437,0 c -0.0313,0.250007 -0.0469,0.640632 -0.0469,1.171875 l 2.53125,0 c -1e-5,-0.499993 -0.0156,-0.906243 -0.0469,-1.21875 l 0.98438,0 c -0.0313,0.375007 -0.0469,0.781257 -0.0469,1.21875 0.68749,6e-6 1.28124,-0.01562 1.78125,-0.04687 l 0,0.796875 c -0.46876,-0.03124 -1.06251,-0.04687 -1.78125,-0.04687 -1e-5,0.843755 0.0156,1.453129 0.0469,1.828125 l -4.40625,0 c 0.0312,-0.499996 0.0469,-1.10937 0.0469,-1.828125 -0.375,5e-6 -0.92188,0.01563 -1.64062,0.04687 l 0,-0.796875 c 0.71874,0.03126 1.26562,0.04688 1.64062,0.04687 z m 3.42188,1.78125 0,-1.078125 -2.53125,0 0,1.078125 z m -2.67188,2.015625 c 0.40624,0.625002 0.89062,1.156251 1.45313,1.59375 0.46874,-0.343749 0.95311,-0.874998 1.45312,-1.59375 l -2.85937,0 z"
+             id="path10561-7" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.01883674,-0.87202806,0.84954753,0.0206221,84.057131,184.27543)"
+       id="shape426-440-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-1">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-8"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.34845549;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.02732733,-1.1934026,1.2324783,0.02822211,-237.63535,168.32002)"
+       id="shape427-442-9"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-2">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-7"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-9"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-54"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-3"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,627.0786,-64.140659)"
+       id="shape426-440-2-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,640.12737,-64.140659)"
+       id="shape427-442-2-0"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,672.0786,-160.64066)"
+       id="shape426-440-2-8-4"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-8">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,685.12737,-160.64066)"
+       id="shape427-442-2-0-5"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-0">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-9"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,793.0786,-162.64066)"
+       id="shape426-440-2-8-1"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-3">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-8"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,806.12737,-162.64066)"
+       id="shape427-442-2-0-9"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-3">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-4"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-4"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,667.0786,-271.64066)"
+       id="shape426-440-2-8-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-6">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-1"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,680.12737,-271.64066)"
+       id="shape427-442-2-0-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-4">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-96"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-3"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-7"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-8"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,790.0786,-270.64066)"
+       id="shape426-440-2-8-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-2">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-9"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,803.12737,-270.64066)"
+       id="shape427-442-2-0-1"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-35">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-98"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-40"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-76"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-3"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,669.0786,-212.64066)"
+       id="shape426-440-2-8-61"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-5">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-4"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,682.12737,-212.64066)"
+       id="shape427-442-2-0-2"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-09">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-7"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-37"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-2"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-60"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,701.03166,-677.64337)"
+       id="shape426-440-2-8-6-0"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-6-1">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-1-4"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,714.08046,-677.64337)"
+       id="shape427-442-2-0-8-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-4-0">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-96-7"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-3-1"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-7-7"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-8-7"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,706.68852,-411.77122)"
+       id="shape426-440-2-8-6-7"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-6-7">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-1-3"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,719.73732,-411.77122)"
+       id="shape427-442-2-0-8-3"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-4-5">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-96-9"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-3-9"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-7-8"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-8-1"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.01883674,-0.87202806,0.84954753,0.0206221,190.87568,187.28158)"
+       id="shape426-440-6-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-1-2">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-8-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.34845549;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.02732733,-1.1934026,1.2324783,0.02822211,-130.81682,171.32617)"
+       id="shape427-442-9-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-2-0">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-7-3"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-9-8"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-54-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-3-1"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,211.0786,-445.64066)"
+       id="shape426-440-2-8-6-2"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-6-5">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-1-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,224.1274,-445.64066)"
+       id="shape427-442-2-0-8-9"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-4-4">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-96-78"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-3-3"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-7-5"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-8-12"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,205.0786,-757.64066)"
+       id="shape426-440-2-8-6-01"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7412-3-6-6-6">工作表.426</title>
+      <path
+         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
+         id="path7414-2-5-1-40"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.76152683,0,0,0.82086091,218.1274,-757.64066)"
+       id="shape427-442-2-0-8-61"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
+      <title
+         id="title7417-1-2-4-8">工作表.427</title>
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
+         id="path7419-6-8-96-98"
+         style="fill:#ff0000;fill-opacity:1" />
+      <path
+         d="m 0,818.97 21,0"
+         id="path7421-8-6-3-4"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 10.5,830.99 0,-12.02"
+         id="path7423-5-0-7-1"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
+         id="path7425-7-2-8-4"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
   </g>
 </svg>
+</div>
+</div>
 <div class="footer">
     <div class="footer-inner">
         Copyright©2016 SUNWISE.SH.CN. All Rights Reserved. <a target="_blank" href="http://www.sunwise.sh.cn/">上海舜华新能源系统有限公司</a>版权所有.
@@ -3605,37 +3590,11 @@
 <script src="../media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 <script src="../media/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="../media/js/app.js" type="text/javascript"></script>
+<script src="../media/js/vue.min.js" type="text/javascript"></script>
+<script src="../media/js/vue-resource.min.js" type="text/javascript"></script>
+<script src="../media/js/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="../media/js/initMenu.js" type="text/javascript"></script>
 <script>
- 
-/*  
-new Vue({
-	  el: '#app',
-	  data: {
-	    items: []
-	  },
-	  methods: {
-	    loadData: function () {
-	      $.get('/SCADA/antingController/data', function (response) {
-	        this.items = response.items;
-	      }.bind(this));
-	    }
-	  },
-	  ready: function () {
-	    this.loadData();
-
-	    setInterval(function () {
-	      this.loadData();
-	    }.bind(this), 5000); 
-	  }
-	}); */
-/*  var app = new Vue({
-	  el: '#app',
-	  data: {
-	    HE109_T: 'Hello Vue!',
-	    CP10A_P:'1111'
-	  },
-}) */ 
-
     function showData() {
         $.ajax({
             url: '/SCADA/antingController/data',
@@ -3663,7 +3622,7 @@ new Vue({
                 document.getElementById("AI013").textContent= dataArray["AI013"]+ "℃";
                 document.getElementById("AI015").textContent= dataArray["AI015"]+ "MPa";
                 document.getElementById("AI05").textContent= dataArray["AI05"]+ "KG/MIN";
-                document.getElementById("AI28").textContent= dataArray["AI28"]+ "KG";
+                document.getElementById("AI30").textContent= dataArray["AI30"]+ "KG";
                 document.getElementById("AI29").textContent= dataArray["AI29"]+ "KG";
                 document.getElementById("AI08").textContent= dataArray["AI08"]+ "元";
                 document.getElementById("AI028").textContent= dataArray["AI028"]+ "KG";
@@ -3671,33 +3630,6 @@ new Vue({
                 document.getElementById("AI020").textContent= dataArray["AI020"]+ "KG";
                 document.getElementById("AI29").textContent= dataArray["AI29"]+ "KG";
                 document.getElementById("AI30").textContent= dataArray["AI30"]+ "KG";
-                /* var canvas = document.getElementById("mycanvas");
-                var img = document.getElementById("station_img");
-                canvas.width = img.width;
-                canvas.height = img.height;
-                var context = canvas.getContext("2d");
-                context.scale(0.71, 0.71);
-                context.drawImage(img, 0, 0);
-                context.font = "23px Microsoft YaHei";
-                context.fillText(dataArray["ATD_102"] + "%", 300, 30);
-                context.fillText(dataArray["ATD_101"] + "%", 300, 90);
-                context.fillText(dataArray["COMPRESSOR_P"] + " Bar", 460, 90);
-                context.fillText(dataArray["CP10A_P"] + " Bar", 650, 140);
-                context.fillText(dataArray["CP10A_T"] + " ℃", 730, 140);
-                context.fillText(dataArray["T852_P"] + " Bar", 800, 140);
-                context.fillText(dataArray["T853_P"] + " Bar", 800, 370);
-                context.fillText(dataArray["CP10B_T"] + " ℃", 720, 360);
-                context.fillText(dataArray["CP10B_P"] + " Bar", 630, 360);
-                context.fillText(dataArray["ATD_105"] + "% ", 610, 460);
-                context.fillText(dataArray["ATD_103"] + "% ", 1090, 90);
-                context.fillText(dataArray["HE109_T"] + "℃", 300, 270);
-                context.fillText(dataArray["AI014"] + "℃", 750, 500);
-                context.fillText(dataArray["AI016"] + "MPa", 650, 500);
-                context.fillText(dataArray["AI011"] + "KG/MIN ", 820, 500);
-                context.fillText(dataArray["AI013"] + "℃", 740, 670);
-                context.fillText(dataArray["AI015"] + "MPa", 640, 670);
-                context.fillText(dataArray["AI05"] + "KG/MIN ", 820, 670);
-                $("#station_img").css('display', 'none'); */
             },
             'error': function (data) {
 
