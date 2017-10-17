@@ -90,6 +90,13 @@
    id="svg6227">
   <defs
      id="defs3">
+    <linearGradient
+       id="linearGradient6462">
+      <stop
+         id="stop6464"
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
     <filter
        color-interpolation-filters="sRGB"
        id="filter_2.6666667461395-1-8">
@@ -772,7 +779,7 @@
       </g>
     </g>
     <g
-       transform="matrix(1.1937154,0,0,1.2328014,179.79292,-1107.1701)"
+       transform="matrix(1.1937154,0,0,1.2328014,179.79292,-1086.1701)"
        id="shape302-205"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -1541,7 +1548,7 @@
       </g>
     </g>
     <g
-       transform="matrix(-1.1937154,0,0,-1.2328014,189.94429,886.47317)"
+       transform="matrix(-1.1937154,0,0,-1.2328014,188.94429,875.47317)"
        id="group479-520"
        style="font-size:12px;fill:none;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
       <title
@@ -2686,13 +2693,13 @@
        style="font-size:12px;fill:none;stroke:#7f7f7f;stroke-width:9.99997616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;overflow:visible" />
     <text
        x="215.39908"
-       y="-150.8683"
+       y="-146.93222"
        transform="scale(0.98401972,1.0162398)"
        id="COMPRESSOR_P"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
          x="215.39908"
-         y="-150.8683"
+         y="-146.93222"
          id="tspan12101-8-4"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
@@ -2762,24 +2769,24 @@
          id="tspan12101-8-4-5-2-4"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="890.94592"
+       x="882.32281"
        y="424.37476"
        transform="scale(0.98401972,1.0162398)"
        id="AI014"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="890.94592"
+         x="882.32281"
          y="424.37476"
          id="tspan12101-8-4-5-2-3"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="1009.1433"
+       x="987.58563"
        y="424.37476"
        transform="scale(0.98401972,1.0162398)"
        id="AI016"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="1009.1433"
+         x="987.58563"
          y="424.37476"
          id="tspan12101-8-4-5-2-1"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
@@ -2795,13 +2802,13 @@
          id="tspan12101-8-4-5-2-8"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
     <text
-       x="889.92981"
+       x="885.61829"
        y="568.42731"
        transform="scale(0.98401972,1.0162398)"
        id="AI013"
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;overflow:visible;font-family:Arial;-inkscape-font-specification:Arial"><tspan
-         x="889.92981"
+         x="885.61829"
          y="568.42731"
          id="tspan12101-8-4-5-2-7"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">{}</tspan></text>
@@ -3163,414 +3170,165 @@
         </g>
       </g>
     </g>
-    <g
-       transform="matrix(0.01883674,-0.87202806,0.84954753,0.0206221,84.057131,184.27543)"
-       id="shape426-440-6"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-1">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-8"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.34845549;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.02732733,-1.1934026,1.2324783,0.02822211,-237.63535,168.32002)"
-       id="shape427-442-9"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-2">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-7"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-9"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-54"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-3"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,627.0786,-64.140659)"
-       id="shape426-440-2-8"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,640.12737,-64.140659)"
-       id="shape427-442-2-0"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,672.0786,-160.64066)"
-       id="shape426-440-2-8-4"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-8">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-6"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,685.12737,-160.64066)"
-       id="shape427-442-2-0-5"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-0">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-9"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-6"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,793.0786,-162.64066)"
-       id="shape426-440-2-8-1"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-3">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-8"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,806.12737,-162.64066)"
-       id="shape427-442-2-0-9"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-3">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-4"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-4"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-6"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,667.0786,-271.64066)"
-       id="shape426-440-2-8-6"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-6">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,680.12737,-271.64066)"
-       id="shape427-442-2-0-8"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-4">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-96"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-3"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-7"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-8"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,790.0786,-270.64066)"
-       id="shape426-440-2-8-8"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-2">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-9"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,803.12737,-270.64066)"
-       id="shape427-442-2-0-1"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-35">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-98"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-40"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-76"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-3"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,669.0786,-212.64066)"
-       id="shape426-440-2-8-61"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-5">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-4"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,682.12737,-212.64066)"
-       id="shape427-442-2-0-2"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-09">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-7"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-37"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-2"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-60"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,701.03166,-677.64337)"
-       id="shape426-440-2-8-6-0"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-6-1">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-1-4"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,714.08046,-677.64337)"
-       id="shape427-442-2-0-8-6"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-4-0">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-96-7"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-3-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-7-7"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-8-7"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,706.68852,-411.77122)"
-       id="shape426-440-2-8-6-7"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-6-7">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-1-3"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,719.73732,-411.77122)"
-       id="shape427-442-2-0-8-3"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-4-5">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-96-9"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-3-9"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-7-8"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-8-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.01883674,-0.87202806,0.84954753,0.0206221,190.87568,187.28158)"
-       id="shape426-440-6-8"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-1-2">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-8-6"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.34845549;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.02732733,-1.1934026,1.2324783,0.02822211,-130.81682,171.32617)"
-       id="shape427-442-9-6"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-2-0">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-7-3"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-9-8"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-54-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-3-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.24729949;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,211.0786,-445.64066)"
-       id="shape426-440-2-8-6-2"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-6-5">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-1-0"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,224.1274,-445.64066)"
-       id="shape427-442-2-0-8-9"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-4-4">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-96-78"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-3-3"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-7-5"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-8-12"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,205.0786,-757.64066)"
-       id="shape426-440-2-8-6-01"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7412-3-6-6-6">工作表.426</title>
-      <path
-         d="m 0,830.99 0,19.4 55.28,-19.4 0,19.4 L 0,830.99 z"
-         id="path7414-2-5-1-40"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
-    <g
-       transform="matrix(0.76152683,0,0,0.82086091,218.1274,-757.64066)"
-       id="shape427-442-2-0-8-61"
-       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke-linecap:square;stroke-miterlimit:3;overflow:visible">
-      <title
-         id="title7417-1-2-4-8">工作表.427</title>
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4 z"
-         id="path7419-6-8-96-98"
-         style="fill:#ff0000;fill-opacity:1" />
-      <path
-         d="m 0,818.97 21,0"
-         id="path7421-8-6-3-4"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 10.5,830.99 0,-12.02"
-         id="path7423-5-0-7-1"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-      <path
-         d="m 4.97,850.39 5.53,-3.88 5.53,3.88 0,-19.4 -11.06,0 0,19.4"
-         id="path7425-7-2-8-4"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.37943974;stroke-linecap:round;stroke-linejoin:round" />
-    </g>
+    <a
+       transform="translate(52.3259,-10.606601)"
+       id="a4064" />
+    <path
+       d="m 230.70147,-62.879771 16.37078,0"
+       id="path7421-8-6-3-4-5"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 238.16431,-53.419773 0,-9.29831"
+       id="path7423-5-0-7-1-2"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 216.81604,-53.510041 17.19149,6.330506 0,-6.16392 8.50527,0.166596 0,5.74744 17.37246,-5.830738 -0.0905,14.910004 -17.01053,-5.997319 -0.27145,5.747444 -4.25263,-2.748779 -4.16215,2.915366 -0.18096,-5.830733 -17.19151,5.914021 z"
+       id="DI41"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 225.86554,226.45835 16.37078,0"
+       id="path7421-8-6-3-4-5-9"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 233.32838,235.91835 0,-9.29831"
+       id="path7423-5-0-7-1-2-9"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 211.98011,235.82808 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="DI42"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 715.18342,-5.4726659 16.37078,0"
+       id="path7421-8-6-3-4-5-3"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 722.64626,3.9873341 0,-9.29831"
+       id="path7423-5-0-7-1-2-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 704.10715,6.0183844 13.52995,5.4446826 0,-5.3014035 6.69378,0.1432791 0,4.9432014 13.67237,-5.0148453 -0.0712,12.8236553 -13.38754,-5.158116 -0.21364,4.943202 -3.34688,-2.364144 -3.27567,2.507423 -0.14242,-5.014837 -13.52997,5.086472 z"
+       id="DI43"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 720.19276,260.39881 13.95891,0"
+       id="path7421-8-6-3-4-5-98"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 726.55612,270.40395 0,-9.83414"
+       id="path7423-5-0-7-1-2-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 708.35304,270.30849 14.65871,6.69532 0,-6.51913 7.25221,0.17618 0,6.07865 14.81301,-6.16674 -0.0772,15.76922 -14.50441,-6.34292 -0.23146,6.07865 -3.6261,-2.90719 -3.54895,3.08337 -0.1543,-6.16673 -14.65872,6.25482 z"
+       id="DI44"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 625.52325,608.23713 16.37078,0"
+       id="path7421-8-6-3-4-5-38"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 632.98609,617.69713 0,-9.29831"
+       id="path7423-5-0-7-1-2-2"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 611.63782,617.60686 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI4"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 681.52325,513.23713 16.37078,0"
+       id="path7421-8-6-3-4-5-5"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 688.98609,522.69713 0,-9.29831"
+       id="path7423-5-0-7-1-2-7"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 667.63782,522.60686 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI6"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 679.52325,460.23713 16.37078,0"
+       id="path7421-8-6-3-4-5-7"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 686.98609,469.69713 0,-9.29831"
+       id="path7423-5-0-7-1-2-80"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 665.63782,469.60686 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI9"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 679.52325,400.23714 16.37078,0"
+       id="path7421-8-6-3-4-5-0"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 686.98609,409.69714 0,-9.29831"
+       id="path7423-5-0-7-1-2-89"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 665.63782,409.60687 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI11"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 802.52324,402.23713 16.37078,0"
+       id="path7421-8-6-3-4-5-2"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 809.98608,411.69713 0,-9.29831"
+       id="path7423-5-0-7-1-2-0"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 788.63781,411.60686 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI10"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 804.52324,509.23713 16.37078,0"
+       id="path7421-8-6-3-4-5-52"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 811.98608,518.69713 0,-9.29831"
+       id="path7423-5-0-7-1-2-76"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 790.63781,518.60686 17.19149,6.33051 0,-6.16392 8.50527,0.16659 0,5.74744 17.37246,-5.83074 -0.0905,14.91001 -17.01053,-5.99732 -0.27145,5.74744 -4.25263,-2.74878 -4.16215,2.91537 -0.18096,-5.83073 -17.19151,5.91402 z"
+       id="BI5"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 187.0916,-78.526353 -0.0735,16.370624"
+       id="path7421-8-6-3-4-5-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999921;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 177.32718,-71.104813 9.56465,0.04052"
+       id="path7423-5-0-7-1-2-78"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999921;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 177.51574,-92.475541 -6.58892,14.6367 6.34048,0.02291 -0.20949,7.252342 -5.91207,-0.02136 5.91987,14.836225 -15.33669,-0.132589 6.24537,-14.483625 -5.91085,-0.252843 2.84657,-3.61626 -2.98022,-3.560154 5.99856,-0.132645 -6.00634,-14.682226 z"
+       id="DI45"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 815.46884,151.986 -0.0714,16.37063"
+       id="path7421-8-6-3-4-5-8-6"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 805.97641,159.40754 9.29822,0.0405"
+       id="path7423-5-0-7-1-2-78-0"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 806.15972,138.05987 -6.40538,17.16374 6.16386,0.0269 -0.20365,8.50446 -5.74739,-0.025 5.75497,17.39771 -14.90947,-0.15548 6.0714,-16.98423 -5.7462,-0.2965 2.76728,-4.24061 -2.8972,-4.17482 5.83146,-0.15554 -5.83903,-17.21712 z"
+       id="DI45_1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 920.46884,152.986 -0.0714,16.37063"
+       id="path7421-8-6-3-4-5-8-5"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 910.97641,160.40754 9.29822,0.0405"
+       id="path7423-5-0-7-1-2-78-8"
+       style="font-size:12px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.29999924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+    <path
+       d="m 911.15972,139.05987 -6.40538,17.16374 6.16386,0.0269 -0.20365,8.50446 -5.74739,-0.025 5.75497,17.39771 -14.90947,-0.15548 6.0714,-16.98423 -5.7462,-0.2965 2.76728,-4.24061 -2.8972,-4.17482 5.83146,-0.15554 -5.83903,-17.21712 z"
+       id="DI45_2"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
 </svg>
 </div>
@@ -3630,6 +3388,23 @@
                 document.getElementById("AI020").textContent= dataArray["AI020"]+ "KG";
                 document.getElementById("AI29").textContent= dataArray["AI29"]+ "KG";
                 document.getElementById("AI30").textContent= dataArray["AI30"]+ "KG";
+                (dataArray["D25_5"]&16)==0?document.getElementById("DI45").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&16)==0?document.getElementById("DI45_1").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&16)==0?document.getElementById("DI45_2").style.fill = "#00ff00":null;
+                
+                (dataArray["D25_5"]&1)==1?document.getElementById("DI41").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&2)==1?document.getElementById("DI42").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&4)==1?document.getElementById("DI43").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&8)==1?document.getElementById("DI44").style.fill = "#00ff00":null;
+                (dataArray["D29_1"]&4)==1?document.getElementById("BI11").style.fill = "#00ff00":null;
+                (dataArray["D29_1"]&2)==1?document.getElementById("BI10").style.fill = "#00ff00":null;
+                (dataArray["D29_1"]&1)==1?document.getElementById("BI9").style.fill = "#00ff00":null;
+                (dataArray["D29_0"]&32)==1?document.getElementById("BI6").style.fill = "#00ff00":null;
+                (dataArray["D29_0"]&16)==1?document.getElementById("BI5").style.fill = "#00ff00":null;
+                (dataArray["D29_0"]&8)==1?document.getElementById("BI4").style.fill = "#00ff00":null;
+                
+                
+                
             },
             'error': function (data) {
 
