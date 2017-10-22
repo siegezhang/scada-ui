@@ -3393,17 +3393,17 @@
                 (dataArray["D25_5"]&16)==0?document.getElementById("DI45_2").style.fill = "#00ff00":null;
                 
                 (dataArray["D25_5"]&1)==1?document.getElementById("DI41").style.fill = "#00ff00":null;
-                (dataArray["D25_5"]&2)==1?document.getElementById("DI42").style.fill = "#00ff00":null;
-                (dataArray["D25_5"]&4)==1?document.getElementById("DI43").style.fill = "#00ff00":null;
-                (dataArray["D25_5"]&8)==1?document.getElementById("DI44").style.fill = "#00ff00":null;
-                (dataArray["D29_1"]&4)==1?document.getElementById("BI11").style.fill = "#00ff00":null;
-                (dataArray["D29_1"]&2)==1?document.getElementById("BI10").style.fill = "#00ff00":null;
-                (dataArray["D29_1"]&1)==1?document.getElementById("BI9").style.fill = "#00ff00":null;
-                (dataArray["D29_0"]&32)==1?document.getElementById("BI6").style.fill = "#00ff00":null;
-                (dataArray["D29_0"]&16)==1?document.getElementById("BI5").style.fill = "#00ff00":null;
-                (dataArray["D29_0"]&8)==1?document.getElementById("BI4").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&2)==2?document.getElementById("DI42").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&4)==4?document.getElementById("DI43").style.fill = "#00ff00":null;
+                (dataArray["D25_5"]&8)==8?document.getElementById("DI44").style.fill = "#00ff00":null;
                 
                 
+                (dataArray["D27_76"]&4)==4?document.getElementById("BI10").style.fill = "#00ff00":null;//高压大巴
+                (dataArray["D27_36"]&4)==4?document.getElementById("BI5").style.fill = "#00ff00":null;//高压轿车
+                (dataArray["D27_76"]&2)==2?document.getElementById("BI11").style.fill = "#00ff00":null;//中压大巴
+                (dataArray["D27_36"]&2)==2?document.getElementById("BI6").style.fill = "#00ff00":null;//中压轿车
+                (dataArray["D27_76"]&1)==1?document.getElementById("BI9").style.fill = "#00ff00":null;//低压大巴
+                (dataArray["D27_36"]&1)==1?document.getElementById("BI4").style.fill = "#00ff00":null;//低压轿车
                 
             },
             'error': function (data) {
