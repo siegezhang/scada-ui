@@ -73,6 +73,16 @@
     <div class="page-sidebar nav-collapse collapse">
         <ul class="page-sidebar-menu">
         <app-nav v-for="item in menulist" v-bind:menu="item" v-bind:key="item.id"></app-nav>
+        <li class="start">
+               <a href="javascript:;">
+                   <i class="icon-home"></i>
+                   <span class="title">站点</span>
+                   <span class="arrow "></span>
+               </a>
+               <ul class="sub-menu">
+                   <li><a href="location.html">站点位置</a></li>
+               </ul>
+              </li>
         </ul>
     </div>
 </div>

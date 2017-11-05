@@ -9,9 +9,10 @@ Vue.component('app-nav', {
                 '<ul class="sub-menu">'+
                     '<li><a v-bind:href="menu.dataurl">数据监控</a></li>'+
                     '<li><a v-bind:href="menu.reporturl" target="_blank">报表查看</a></li>'+
-                    '<li><a href="location.html">站点位置</a></li>'+
+                    //'<li><a href="location.html">站点位置</a></li>'+
                 '</ul>'+
                '</li>'
+               
 });
 new Vue({ 
 	el:'#app',
