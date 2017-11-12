@@ -116,15 +116,20 @@
 	var data_info = [
 	    [112.256092, 22.919042, "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>云浮站</h4><img style='float:right;margin:4px' id='imgDemo' src='../media/image/anting_station_1.png' width='139' height='104' title='云浮站'/><p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>地址：云浮市思劳镇鱼仔坑山<br/>设备情况：压缩机2台(450A,450B),加氢机2台(350A,350B)<br/>运行情况:运行中&nbsp;&nbsp;</p>"],
 	    [121.510292, 38.853799, "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>大连站</h4><img style='float:right;margin:4px' id='imgDemo' src='../media/image/anting_station_1.png' width='139' height='104' title='大连站'/><p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>地址：大连市高新区黄浦路907号<br/>设备情况：压缩机3台(200,450,900),加氢机2台(350A,350B)<br/>运行情况:运行中&nbsp;&nbsp;"],
-	    [121.174433, 31.285371, "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>安亭站</h4><img style='float:right;margin:4px' id='imgDemo' src='../media/image/anting_station_1.png' width='139' height='104' title='安亭站'/><p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>地址：上海市嘉定区安亭镇博园路7575号<br/>设备情况：压缩机2台(A,B),加氢机2台(350A,350B)<br/>运行情况:未知&nbsp;&nbsp;"]
+	    [121.174433, 31.285371, "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>安亭站</h4><img style='float:right;margin:4px' id='imgDemo' src='../media/image/anting_station_1.png' width='139' height='104' title='安亭站'/><p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>地址：上海市嘉定区安亭镇博园路7575号<br/>设备情况：压缩机2台(A,B),加氢机2台(350A,350B)<br/>运行情况:运行中&nbsp;&nbsp;"]
 	];
 	var opts = {
 	    width: 300, // 信息窗口宽度
 	    height: 200, // 信息窗口高度
 	    enableMessage: true //设置允许信息窗发送短息
 	};
+	var icon = new BMap.Icon('../media/image/pin.png', new BMap.Size(200, 32), {//是引用图标的名字以及大小，注意大小要一样
+	    anchor: new BMap.Size(10, 30)//这句表示图片相对于所加的点的位置
+	});
 	for (var i = 0; i < data_info.length; i++) {
-	    var marker = new BMap.Marker(new BMap.Point(data_info[i][0], data_info[i][1])); // 创建标注
+	    var marker = new BMap.Marker(new BMap.Point(data_info[i][0], data_info[i][1]),{
+	    	icon: icon
+	    }); // 创建标注
 	    var content = data_info[i][2];
 	    map.addOverlay(marker); // 将标注添加到地图中
 	    addClickHandler(content, marker);
